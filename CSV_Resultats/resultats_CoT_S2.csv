@@ -1,0 +1,181 @@
+patientId,class_origine,qualite,reponse_ia_brute
+0004cfab-14fd-4e49-80ba-63a80b6bddd6,uncertain,mauvaise,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""aucune limitation visible"",
+  ""visual_evidence"": ""Opacités importantes dans le lobe inférieur du poumon droit, présence d'un tube thoracique droit. Le lobe gauche semble relativement clair."",
+  ""justification"": ""Les opacités dans le poumon droit, en particulier dans les zones inférieures, sont un signe d'une possible consolidation ou d'un autre processus pathologique. La présence du tube thoracique droit suggère une intervention chirurgicale ou de drainage."",
+  ""predicted_class"": ""suspected_opacity"",
+  ""confidence"": 0.95,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}"
+00313ee0-9eaa-42f4-b0ab-c148ed3241cd,uncertain,moyenne,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""câbles visibles"",
+  ""visual_evidence"": ""catheter dans la veine subclavière droite, tube thoracique dans le côté gauche, opacité dans le bas du lobe gauche"",
+  ""justification"": ""La présence d'un tube thoracique et d'un cathéter suggère une possible pneumothorax ou épanchement pleural. L'opacité dans le bas du lobe gauche pourrait être due à l'atélectasie, à une consolidation ou à un petit épanchement pleural. L'opacité est probablement liée à la condition sous-jacente."",
+  ""predicted_class"": ""suspected_opacity"",
+  ""confidence"": 0.85,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}"
+00322d4d-1c29-4943-afc9-b6754be640eb,uncertain,bonne,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""Aucune limitation visible"",
+  ""visual_evidence"": ""Présence de multiples opacités arrondies dans les deux champs pulmonaires"",
+  ""justification"": ""Les opacités arrondies multiples dans les deux poumons sont suspectes pour une maladie métastatique ou des nodules multiples. La distribution n'est pas typique d'une seule cause."",
+  ""predicted_class"": ""suspected_opacity"",
+  ""confidence"": 0.95,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}"
+003d8fa0-6bf1-40ed-b54c-ac657f8495c5,normal,bonne,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""aucune"",
+  ""visual_evidence"": ""Le cœur est de taille normale. Le médiastin est normal. Les poumons sont clairs sans consolidation, masses ou épanchements pleuraux visibles. Les côtes et les clavicules sont intactes."",
+  ""justification"": ""L'examen radiologique frontal montre des signes radiologiques dans les limites de la normale. Il n'y a pas d'indices de pathologies comme des opacités suspectées ou des anomalies."",
+  ""predicted_class"": ""normal"",
+  ""confidence"": 0.95,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}"
+00436515-870c-4b36-a041-de91049b9ab4,suspected_opacity,bonne,"{
+  ""image_quality"": ""moyenne"",
+  ""limitations"": ""câbles, flou"",
+  ""visual_evidence"": ""Opacité significative dans les zones basales pulmonaires, edema pulmonaire, cardiomegalie."",
+  ""justification"": ""L'image montre des opacités importantes dans les zones basales pulmonaires, suggérant une possible cause sous-jacente. L'edema pulmonaire et la cardiomegalie sont également visibles. Les limitations dues aux câbles et à la position du patient rendent l'interprétation difficile."",
+  ""predicted_class"": ""suspected_opacity"",
+  ""confidence"": 0.75,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}"
+00569f44-917d-4c86-a842-81832af98c30,uncertain,bonne,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""câbles et tubes visibles, position portable"",
+  ""visual_evidence"": ""Opacité significative dans le lobe supérieur droit"",
+  ""justification"": ""L'opacité dans le lobe supérieur droit est le signe le plus notable. Cela suggère une possible consolidation, atelectasie ou masse."",
+  ""predicted_class"": ""suspected_opacity"",
+  ""confidence"": 0.85,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}"
+006cec2e-6ce2-4549-bffa-eadfcd1e9970,uncertain,moyenne,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""Aucune limitation visible"",
+  ""visual_evidence"": ""L'image montre une opacité significative dans la zone inférieure du lobe droit du poumon, qui cache le diaphragme droit. Le lobe gauche semble clair. La taille du cœur et du médiastin semblent normales."",
+  ""justification"": ""L'opacité dans le lobe droit suggère une possible effusion pleurale, consolidation ou atelectase. Cette observation justifie la classification comme 'suspected_opacity'."",
+  ""predicted_class"": ""suspected_opacity"",
+  ""confidence"": 0.95,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}"
+00704310-78a8-4b38-8475-49f4573b2dbb,suspected_opacity,bonne,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""Aucune limitation visible"",
+  ""visual_evidence"": ""Opacité accrue dans les zones basales pulmonaires, en particulier sur le côté droit. Le cœur et le médiastin semblent normaux. Les zones supérieures sont relativement claires."",
+  ""justification"": ""L'opacité dans les zones basales pulmonaires suggère une possible pathologie. Bien que cela puisse être une observation normale, elle nécessite une évaluation."",
+  ""predicted_class"": ""suspected_opacity"",
+  ""confidence"": 0.85,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}"
+008c19e8-a820-403a-930a-bc74a4053664,uncertain,bonne,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""aucune limitation visible"",
+  ""visual_evidence"": ""Le cœur est de taille normale. Les poumons sont globalement clairs, mais il y a une légère opacité dans le bas du lobe droit. Des clips chirurgicaux sont visibles dans le médiastin droit supérieur."",
+  ""justification"": ""La présence de clips chirurgicaux et de la légère opacité dans le bas du lobe droit suggèrent une possible cause sous-jacente. L'opacité est subtile et nécessite une évaluation supplémentaire."",
+  ""predicted_class"": ""suspected_opacity"",
+  ""confidence"": 0.75,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}"
+009482dc-3db5-48d4-8580-5c89c4f01334,normal,bonne,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""aucune"",
+  ""visual_evidence"": ""Le cœur est de taille normale. Les poumons sont clairs sans consolidation, masses ou effusions pleurales. Il y a un objet métallique (probablement une implante chirurgicale) dans la colonne vertébrale inférieure."",
+  ""justification"": ""L'examen montre des signes radiologiques dans les limites de la normale. L'objet métallique est visible mais ne masque pas de signes pathologiques importants."",
+  ""predicted_class"": ""normal"",
+  ""confidence"": 0.95,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}"
+009eb222-eabc-4150-8121-d5a6d06b8ebf,normal,bonne,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""aucune"",
+  ""visual_evidence"": ""Les poumons sont clairs bilatéralement. La taille du cœur semble normale. Le médiastin est sans particularités."",
+  ""justification"": ""L'image montre pas de signes d'anomalies importantes. Les poumons sont clairs, la taille du cœur est normale et il n'y a pas de masses ou de consolidations évidentes."",
+  ""predicted_class"": ""normal"",
+  ""confidence"": 0.95,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}"
+00a85be6-6eb0-421d-8acf-ff2dc0007e8a,normal,bonne,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""Aucune limitation visible"",
+  ""visual_evidence"": ""Les poumons sont clairs bilatéralement. La taille du cœur semble normale. Le médiastin est sans particularité. Il y a une ligne centrale visible dans le haut du thorax droit."",
+  ""justification"": ""L'image est de bonne qualité. Il n'y a pas d'opacité visible dans les poumons, ni d'effusion ou de pneumothorax. La taille du cœur est dans les limites de la normale. La présence d'une ligne centrale est notée mais ne suggère pas d'anomalie."",
+  ""predicted_class"": ""normal"",
+  ""confidence"": 0.95,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}"
+00aecb01-a116-45a2-956c-08d2fa55433f,suspected_opacity,mauvaise,"{
+  ""image_quality"": ""moyenne"",
+  ""limitations"": ""câbles visibles (trachéostomie, etc.), position non idéale, contraste faible"",
+  ""visual_evidence"": ""zones d'opacité dans le lobe inférieur droit, zones hachées dans les deux poumons, obscurcissement du médiastin par la trachéostomie"",
+  ""justification"": ""L'image montre une opacité significative dans le lobe inférieur droit, ce qui suggère une possible consolidation ou effusion pleurale. Les zones hachées dans les deux poumons peuvent indiquer une congestion pulmonaire ou une atelectasie. Les limitations dues aux câbles et à la position du patient rendent l'interprétation difficile."",
+  ""predicted_class"": ""suspected_opacity"",
+  ""confidence"": 0.75,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}"
+00c0b293-48e7-4e16-ac76-9269ba535a62,suspected_opacity,bonne,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""aucune"",
+  ""visual_evidence"": ""Opacités diffuses et bilatérales dans les champs pulmonaires, suggérant une infiltration ou une consolidation."",
+  ""justification"": ""La présence de ces opacités bilatérales et diffuses est un signe caractéristique d'un processus pulmonaire affectant les deux poumons."",
+  ""predicted_class"": ""suspected_opacity"",
+  ""confidence"": 0.95,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}"
+00f87de5-5fe0-4921-93ea-914d7e683266,normal,bonne,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""aucune"",
+  ""visual_evidence"": ""Les poumons sont clairs bilatéralement, la taille du cœur est dans les limites normales, le médiastin est normal, les côtes et les clavicules sont visibles. Il n'y a pas d'indices évidents de consolidation, d'effusion pleurale ou de pneumothorax."",
+  ""justification"": ""L'examen radiologique frontal montre une image de bonne qualité sans limitations notables. Les poumons sont clairs, la taille du cœur est normale, et il n'y a pas d'anomalies évidentes."",
+  ""predicted_class"": ""normal"",
+  ""confidence"": 0.95,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}"
+01027bc3-dc40-4165-a6c3-d6be2cb7ca34,normal,bonne,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""aucune"",
+  ""visual_evidence"": ""Les poumons sont clairs bilatéralement, la taille du cœur est dans les limites normales, le médiastin est normal, les côtes et les clavicules sont visibles. Il n'y a pas de signes d'effusion pleural, de pneumothorax ou de consolidation."",
+  ""justification"": ""L'examen radiologique est normal. Il n'y a pas d'anomalies notables."",
+  ""predicted_class"": ""normal"",
+  ""confidence"": 0.95,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}"
+019d950b-dd38-4cf3-a686-527a75728be6,suspected_opacity,mauvaise,"{
+  ""image_quality"": ""moyenne"",
+  ""limitations"": ""présence de câbles et tubes"",
+  ""visual_evidence"": ""opacités diffuses bilatérales dans les poumons, surtout sur le côté droit. Le cœur semble légèrement augmenté. Présence de lignes et tubes."",
+  ""justification"": ""Les opacités diffuses bilatérales suggèrent une condition pulmonaire comme l'œdème pulmonaire ou une pneumonie. Les lignes et tubes peuvent masquer des détails."",
+  ""predicted_class"": ""suspected_opacity"",
+  ""confidence"": 0.75,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}"
+01a6eaa6-222f-4ea8-9874-bbd89dc1a1ce,suspected_opacity,moyenne,"{
+  ""image_quality"": ""moyenne"",
+  ""limitations"": ""Position supine, câbles et tubes visibles, manque de contraste"",
+  ""visual_evidence"": ""Opacités diffuses et bilatérales dans les deux champs pulmonaires. Difficulté à évaluer la taille du cœur et la silhouette médiastinale."",
+  ""justification"": ""Les opacités diffuses bilatérales sont le signe le plus notable. Cela pourrait être dû à plusieurs causes, comme l'œdème pulmonaire, la pneumonie ou l'ARDS. La mauvaise qualité de l'image rend difficile la différenciation."",
+  ""predicted_class"": ""suspected_opacity"",
+  ""confidence"": 0.75,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}"
+01a7353d-25bb-4ff8-916b-f50dd541dccf,suspected_opacity,moyenne,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""présence de câbles et tubes"",
+  ""visual_evidence"": ""Opacité significative dans le lobe inférieur gauche, possible épanchement pleural ou consolidation. Opacité également présente dans le lobe inférieur droit. Le cœur et le médiastin semblent dans des limites normales."",
+  ""justification"": ""L'opacité dans les lobes inférieurs, en particulier le gauche, suggère une possible pathologie sous-jacente comme une pneumonie, un épanchement pleural ou une atelectasie. Les autres structures pulmonaires et médiastinales semblent relativement normales."",
+  ""predicted_class"": ""suspected_opacity"",
+  ""confidence"": 0.85,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}"
+01aad2a6-3b93-45e3-bf37-2d73348cb6fc,normal,bonne,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""aucune"",
+  ""visual_evidence"": ""Les poumons sont clairs bilatéralement, la taille du cœur est normale, le médiastin est sans particularités, et il n'y a pas d'effusions pleurales ou de pneumothorax."",
+  ""justification"": ""L'examen radiologique est de bonne qualité et ne présente pas de limitations. Les signes visuels sont compatibles avec une radiographie normale."",
+  ""predicted_class"": ""normal"",
+  ""confidence"": 0.95,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}"

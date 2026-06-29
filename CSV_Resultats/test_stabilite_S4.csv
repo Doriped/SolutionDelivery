@@ -1,0 +1,13 @@
+patientId,class_origine,predictions,stable
+0004cfab-14fd-4e49-80ba-63a80b6bddd6,uncertain,"['suspected_opacity', 'suspected_opacity', 'suspected_opacity']",True
+00313ee0-9eaa-42f4-b0ab-c148ed3241cd,uncertain,"['suspected_opacity', 'suspected_opacity', 'suspected_opacity']",True
+00322d4d-1c29-4943-afc9-b6754be640eb,uncertain,"['suspected_opacity', 'suspected_opacity', 'suspected_opacity']",True
+00569f44-917d-4c86-a842-81832af98c30,uncertain,"['suspected_opacity', 'suspected_opacity', 'suspected_opacity']",True
+006cec2e-6ce2-4549-bffa-eadfcd1e9970,uncertain,"['ERREUR', 'suspected_opacity', 'suspected_opacity']",False
+008c19e8-a820-403a-930a-bc74a4053664,uncertain,"['suspected_opacity', 'suspected_opacity', 'suspected_opacity']",True
+003d8fa0-6bf1-40ed-b54c-ac657f8495c5,normal,"['normal', 'normal', 'normal']",True
+009482dc-3db5-48d4-8580-5c89c4f01334,normal,"['normal', 'normal', 'normal']",True
+01027bc3-dc40-4165-a6c3-d6be2cb7ca34,normal,"['normal', 'normal', 'normal']",True
+00436515-870c-4b36-a041-de91049b9ab4,suspected_opacity,"['suspected_opacity', 'suspected_opacity', 'suspected_opacity']",True
+00704310-78a8-4b38-8475-49f4573b2dbb,suspected_opacity,"['suspected_opacity', 'ERREUR', 'suspected_opacity']",False
+01a6eaa6-222f-4ea8-9874-bbd89dc1a1ce,suspected_opacity,"['suspected_opacity', 'suspected_opacity', 'suspected_opacity']",True
