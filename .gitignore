@@ -1,0 +1,6 @@
+env/
+rsna-pneumonia-detection-challenge/
+CSV_Resultats/
+.env
+
+__pycache__/

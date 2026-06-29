@@ -1,0 +1,23 @@
+patientId,class_origine,classe_projet,qualite
+0004cfab-14fd-4e49-80ba-63a80b6bddd6,No Lung Opacity / Not Normal,uncertain,mauvaise
+00313ee0-9eaa-42f4-b0ab-c148ed3241cd,No Lung Opacity / Not Normal,uncertain,moyenne
+00322d4d-1c29-4943-afc9-b6754be640eb,No Lung Opacity / Not Normal,uncertain,bonne
+003d8fa0-6bf1-40ed-b54c-ac657f8495c5,Normal,normal,bonne
+00436515-870c-4b36-a041-de91049b9ab4,Lung Opacity,suspected_opacity,bonne
+00569f44-917d-4c86-a842-81832af98c30,No Lung Opacity / Not Normal,uncertain,bonne
+006cec2e-6ce2-4549-bffa-eadfcd1e9970,No Lung Opacity / Not Normal,uncertain,moyenne
+00704310-78a8-4b38-8475-49f4573b2dbb,Lung Opacity,suspected_opacity,bonne
+008c19e8-a820-403a-930a-bc74a4053664,No Lung Opacity / Not Normal,uncertain,bonne
+009482dc-3db5-48d4-8580-5c89c4f01334,Normal,normal,bonne
+009eb222-eabc-4150-8121-d5a6d06b8ebf,Normal,normal,bonne
+00a85be6-6eb0-421d-8acf-ff2dc0007e8a,Normal,normal,bonne
+00aecb01-a116-45a2-956c-08d2fa55433f,Lung Opacity,suspected_opacity,mauvaise
+00c0b293-48e7-4e16-ac76-9269ba535a62,Lung Opacity,suspected_opacity,bonne
+00f87de5-5fe0-4921-93ea-914d7e683266,Normal,normal,bonne
+01027bc3-dc40-4165-a6c3-d6be2cb7ca34,Normal,normal,bonne
+019d950b-dd38-4cf3-a686-527a75728be6,Lung Opacity,suspected_opacity,mauvaise
+01a6eaa6-222f-4ea8-9874-bbd89dc1a1ce,Lung Opacity,suspected_opacity,moyenne
+01a7353d-25bb-4ff8-916b-f50dd541dccf,Lung Opacity,suspected_opacity,moyenne
+01aad2a6-3b93-45e3-bf37-2d73348cb6fc,Normal,normal,bonne
+
+
