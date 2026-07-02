@@ -1,0 +1,1456 @@
+patientId,class_origine,reponse_ia_brute,mode_degrade
+32827da4-939c-46de-85db-a2d75cb0dfad,suspected_opacity,"{
+  ""image_quality"": ""moyenne"",
+  ""limitations"": ""câbles, flou"",
+  ""visual_evidence"": ""présence d'opacités dans les deux lobes pulmonaires, possible épanchement pleural droit"",
+  ""justification"": ""L'image est de qualité moyenne, avec des câbles et un flou. Il y a des opacités dans les deux lobes pulmonaires, ce qui pourrait être une pneumonie ou un épanchement pleural. L'aspect des opacités est non spécifique."",
+  ""predicted_class"": ""uncertain"",
+  ""uncertain_reason"": ""autre_anomalie"",
+  ""confidence"": 0.75,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+f363306d-1c02-4182-9118-17e28d66d265,normal,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""la radiographie montre les deux poumons, le cœur, et la cage thoracique. les poumons sont clairs. il y a un cathéter visible dans la veine jugulaire."",
+  ""justification"": ""la qualité de l'image est bonne, et il n'y a pas de limitations. les poumons sont clairs, et il y a un cathéter visible dans la veine jugulaire."",
+  ""predicted_class"": ""normal"",
+  ""uncertain_reason"": ""n/a"",
+  ""confidence"": 0.95,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+8336247a-99ea-4b37-9658-3deaad4838f3,uncertain,"{
+  ""image_quality"": ""moyenne"",
+  ""limitations"": ""câbles et tubes"",
+  ""visual_evidence"": ""présence de câbles et tubes dans les zones thoraciques, opacités dans les deux poumons"",
+  ""justification"": ""L'image est de mauvaise qualité en raison des câbles et tubes. Il y a des opacités dans les deux poumons, ce qui pourrait être dû à des infiltrats ou une autre cause."",
+  ""predicted_class"": ""suspected_opacity"",
+  ""uncertain_reason"": ""autre_anomalie"",
+  ""confidence"": 0.85,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+9dbd05f8-87b8-4902-8e3c-86da0690fd63,suspected_opacity,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""Opacité dans le bas du lobe droit, probable épanchement pleural. Le lobe gauche semble normal."",
+  ""justification"": ""L'image est de bonne qualité. Il y a une opacité dans le bas du lobe droit, qui pourrait être un épanchement pleural. Le lobe gauche semble normal."",
+  ""predicted_class"": ""uncertain"",
+  ""uncertain_reason"": ""autre_anomalie"",
+  ""confidence"": 0.85,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+0f2bce55-7193-45d0-8223-d978b550477a,suspected_opacity,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""Câbles et tubes"",
+  ""visual_evidence"": ""Opacité dans le bas du poumon droit, possible épanchement pleural"",
+  ""justification"": ""L'image est de bonne qualité. Il y a une opacité dans le bas du poumon droit, qui pourrait être due à un épanchement pleural ou une consolidation. Il y a aussi une opacité dans le bas du poumon gauche, qui pourrait être due à une consolidation ou un épanchement pleural."",
+  ""predicted_class"": ""suspected_opacity"",
+  ""uncertain_reason"": ""autre_anomalie"",
+  ""confidence"": 0.85,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+fb4b98af-d6d1-468f-8194-ceffd09d9fb0,normal,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""les poumons sont clairs, la cardiomégalie est absente, et il n'y a pas d'autres anomalies visibles."",
+  ""justification"": ""l'image est de bonne qualité, les poumons sont clairs, et il n'y a pas d'autres anomalies visibles."",
+  ""predicted_class"": ""normal"",
+  ""uncertain_reason"": ""n/a"",
+  ""confidence"": 0.95,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+9e8bd81f-b091-4c02-9ea4-1927c896dfc2,suspected_opacity,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""la radiographie montre un cœur qui semble plus grand que la normale (cardiomégalie), et une opacité diffuse dans les deux poumons."",
+  ""justification"": ""la cardiomégalie est visible et l'opacité diffuse dans les deux poumons est évocatrice d'une pneumonie."",
+  ""predicted_class"": ""suspected_opacity"",
+  ""uncertain_reason"": ""autre_anomalie"",
+  ""confidence"": 0.95,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+51f68c41-ad1f-4440-aaf2-b8d7440fbec0,uncertain,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""la radiographie montre les deux poumons, le cœur et la cage thoracique. Les poumons sont clairs, sans opacités évidentes. Le cœur est de taille normale. La cage thoracique est dans une position normale."",
+  ""justification"": ""La qualité de l'image est bonne, et il n'y a pas de limites. Les poumons sont clairs, et il n'y a pas d'opacité évocatrice d'une pneumonie."",
+  ""predicted_class"": ""normal"",
+  ""uncertain_reason"": ""n/a"",
+  ""confidence"": 0.95,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+fafb820f-cd7f-4a19-a24f-f294e69a0f87,suspected_opacity,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""câbles"",
+  ""visual_evidence"": ""présence d'opacités bilatérales importantes dans les zones basales et interlobaires, avec une distribution asymétrique."",
+  ""justification"": ""L'image montre des opacités bilatérales importantes dans les zones basales et interlobaires, avec une distribution asymétrique. Ces opacités pourraient être interprétées comme des infiltrats ou une consolidation."",
+  ""predicted_class"": ""suspected_opacity"",
+  ""uncertain_reason"": ""n/a"",
+  ""confidence"": 0.95,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+aeb6324d-08d5-426b-9a60-bc39d5151edb,suspected_opacity,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""Le cœur est cardiomégalyque. Il y a un cathéter dans la veine jugulaire. Les poumons sont clairs."",
+  ""justification"": ""L'image est de bonne qualité. Le cœur est cardiomégalyque. Il y a un cathéter dans la veine jugulaire. Les poumons sont clairs."",
+  ""predicted_class"": ""uncertain"",
+  ""uncertain_reason"": ""autre_anomalie"",
+  ""confidence"": 0.85,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+b1ad1067-58dc-40f5-80ec-a23a812290fa,uncertain,"{
+  ""image_quality"": ""moyenne"",
+  ""limitations"": ""câbles, flou"",
+  ""visual_evidence"": ""présence d'opacités dans les zones basales des poumons, possible épanchement pleural"",
+  ""justification"": ""L'image est de qualité moyenne. Il y a des opacités dans les zones basales des poumons, ce qui pourrait être dû à des infiltrats ou un épanchement pleural. Les câbles et le flou peuvent affecter la clarté de l'image."",
+  ""predicted_class"": ""suspected_opacity"",
+  ""uncertain_reason"": ""autre_anomalie"",
+  ""confidence"": 0.85,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+b70eb540-c3f7-4655-9d70-00a143ffb5e5,normal,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""la radiographie montre un diaphragme droit et gauche, des côtes, et la colonne vertébrale. Les poumons sont clairs, sans opacités évidentes."",
+  ""justification"": ""la qualité de l'image est bonne, et il n'y a pas de signes d'anomalie."",
+  ""predicted_class"": ""normal"",
+  ""uncertain_reason"": ""n/a"",
+  ""confidence"": 0.95,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+f7feb95a-6cb9-46fd-84ea-3d421ae122ef,normal,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""les poumons sont clairs, la cardiomégalie est absente, et il n'y a pas d'autres anomalies visibles."",
+  ""justification"": ""l'image est de bonne qualité, les poumons sont clairs, et il n'y a pas d'autres anomalies visibles."",
+  ""predicted_class"": ""normal"",
+  ""uncertain_reason"": ""n/a"",
+  ""confidence"": 0.95,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+cb70436a-d8f1-4e8a-91fb-38062ce35758,normal,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""Le thorax est bien visible. Les poumons sont clairs. Le cœur est de taille normale. Il y a un cathéter visible dans la veine jugulaire."",
+  ""justification"": ""L'image est de bonne qualité et permet une évaluation des poumons et du cœur. Il n'y a pas d'opacité évocatrice de pneumonie. Le cathéter est visible."",
+  ""predicted_class"": ""normal"",
+  ""uncertain_reason"": ""n/a"",
+  ""confidence"": 0.95,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+a6037427-488c-4ea1-8ea8-d81f804bd974,normal,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""la radiographie montre un sternum droit, des clavicules, des omoplates, des omérites, des côtes, des poumons et le cœur."",
+  ""justification"": ""la radiographie est de bonne qualité, et les structures osseuses et pulmonaires sont bien visibles."",
+  ""predicted_class"": ""normal"",
+  ""uncertain_reason"": ""n/a"",
+  ""confidence"": 0.99,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+398cd60c-17b9-44bc-8547-5cb6b6dad714,suspected_opacity,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""la radiographie montre un cœur de taille normale, des poumons avec une opacité dans le bas du lobe droit et une opacité dans le bas du lobe gauche. Les poumons sont clairs dans les zones restantes."",
+  ""justification"": ""la qualité de l'image est bonne. il y a une opacité dans le bas du lobe droit et une opacité dans le bas du lobe gauche. les poumons sont clairs dans les zones restantes."",
+  ""predicted_class"": ""uncertain"",
+  ""uncertain_reason"": ""autre_anomalie"",
+  ""confidence"": 0.85,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+65cc7b42-4bac-41b7-ac07-cc35319cc2e5,uncertain,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""la radiographie montre des poumons avec une opacité dans le bas du lobe droit, et une opacité dans le bas du lobe gauche"",
+  ""justification"": ""la radiographie montre des poumons avec une opacité dans le bas du lobe droit, et une opacité dans le bas du lobe gauche"",
+  ""predicted_class"": ""uncertain"",
+  ""uncertain_reason"": ""autre_anomalie"",
+  ""confidence"": 0.85,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+aac0f44c-3942-460a-8d75-ece0ac88ab0f,suspected_opacity,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""la radiographie montre les deux poumons, le cœur, la colonne vertébrale et les clavicules. Les poumons sont clairs. Il y a un cathéter visible dans la veine jugulaire."",
+  ""justification"": ""la qualité de l'image est bonne, et il n'y a pas de limitations. Les poumons sont clairs, et il y a un cathéter visible dans la veine jugulaire."",
+  ""predicted_class"": ""normal"",
+  ""uncertain_reason"": ""n/a"",
+  ""confidence"": 0.95,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+bb7dca62-6180-4e52-81b6-8a9e09a4bfae,suspected_opacity,"{
+  ""image_quality"": ""moyenne"",
+  ""limitations"": ""câbles et tubes"",
+  ""visual_evidence"": ""présence d'une opacité diffuse et extensive dans les deux poumons, avec une opacité plus importante dans le bas du thorax."",
+  ""justification"": ""L'image est de qualité moyenne, avec des câbles et tubes qui peuvent affecter la clarté. Il y a une opacité diffuse et extensive dans les deux poumons, avec une opacité plus importante dans le bas du thorax. Ces signes sont évocateurs d'une pneumonie."",
+  ""predicted_class"": ""suspected_opacity"",
+  ""uncertain_reason"": ""n/a"",
+  ""confidence"": 0.95,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+a9da9bbf-0ccc-4a8d-8a7f-855ad4657b67,uncertain,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""Le thorax est bien visible. Les poumons sont clairs. Le cœur est de taille normale. Le cathéter est visible."",
+  ""justification"": ""L'image est de bonne qualité, avec une bonne exposition et une bonne résolution. Les poumons sont clairs, sans opacité évocatrice de pneumonie. Le cathéter est visible."",
+  ""predicted_class"": ""normal"",
+  ""uncertain_reason"": ""n/a"",
+  ""confidence"": 0.95,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+c4073ba6-181c-4421-9793-2c79fd9c005e,normal,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""Câbles et dispositifs médicaux"",
+  ""visual_evidence"": ""L'image montre les poumons, le cœur et les structures osseuses. Il y a une opacité diffuse dans les zones basales des poumons."",
+  ""justification"": ""L'image est de bonne qualité, permettant une évaluation des structures pulmonaires. L'opacité diffuse dans les zones basales des poumons est un signe potentiel d'infiltrat pulmonaire."",
+  ""predicted_class"": ""suspected_opacity"",
+  ""uncertain_reason"": ""autre_anomalie"",
+  ""confidence"": 0.85,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+d256b193-9bcb-4313-b220-014a718420e1,uncertain,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""L'image montre un thorax avec des poumons clairs, une cardiomégalie et un épanchement pleural gauche."",
+  ""justification"": ""La qualité de l'image est bonne. Il y a une cardiomégalie et un épanchement pleural gauche."",
+  ""predicted_class"": ""uncertain"",
+  ""uncertain_reason"": ""autre_anomalie"",
+  ""confidence"": 0.85,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+2dcdd159-2889-48d3-a0ce-5c7b1086c49d,normal,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""les poumons sont clairs, sans opacités suspectes. la cardiomégalie est absente. le cathéter est visible."",
+  ""justification"": ""l'image est de bonne qualité, les poumons sont clairs, sans opacités suspectes. la cardiomégalie est absente. le cathéter est visible."",
+  ""predicted_class"": ""normal"",
+  ""uncertain_reason"": ""n/a"",
+  ""confidence"": 0.95,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+de5cd980-fe4d-4271-984c-3ab285efcb48,uncertain,"{
+  ""image_quality"": ""moyenne"",
+  ""limitations"": ""Câbles et dispositifs"",
+  ""visual_evidence"": ""Opacités dans les deux lobes pulmonaires, principalement dans le lobe gauche."",
+  ""justification"": ""L'image est de bonne qualité, mais les câbles et dispositifs (probablement un cathéter) sont visibles et peuvent masquer des détails pulmonaires. Les opacités dans les deux lobes pulmonaires, principalement dans le lobe gauche, sont suspectes d'une pneumonie."",
+  ""predicted_class"": ""suspected_opacity"",
+  ""uncertain_reason"": ""autre_anomalie"",
+  ""confidence"": 0.85,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+e56fe4ee-79d2-4627-ab35-d209e197440b,uncertain,"{
+  ""image_quality"": ""moyenne"",
+  ""limitations"": ""câbles"",
+  ""visual_evidence"": ""présence d'un cathéter central et d'un cathéter de drainage pleural"",
+  ""justification"": ""L'image est de qualité moyenne, avec des câbles visibles qui peuvent affecter la clarté. Il y a une opacité dans le lobe supérieur gauche."",
+  ""predicted_class"": ""suspected_opacity"",
+  ""uncertain_reason"": ""autre_anomalie"",
+  ""confidence"": 0.85,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+77265ac1-7a24-44df-9969-41cbd6c29263,uncertain,"{
+  ""image_quality"": ""moyenne"",
+  ""limitations"": ""Le patient est en position portative, ce qui peut affecter la qualité de l'image."",
+  ""visual_evidence"": ""L'image montre un sternum visible. Le diaphragme est visible. Il y a une opacité dans le lobe supérieur gauche. Le cathéter est visible."",
+  ""justification"": ""L'image est de qualité moyenne en raison de la position portative. L'opacité dans le lobe supérieur gauche est visible. Le cathéter est visible."",
+  ""predicted_class"": ""uncertain"",
+  ""uncertain_reason"": ""autre_anomalie"",
+  ""confidence"": 0.85,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+d0ebe778-257e-46e9-be12-0274a344a274,uncertain,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""Opacité dans le lobe supérieur gauche, probable épanchement pleural. Opacité dans le lobe droit, possible consolidation ou fibrose. Cardiomégalie."",
+  ""justification"": ""L'image est de bonne qualité. Il y a une opacité dans le lobe supérieur gauche, qui pourrait être un épanchement pleural. Il y a aussi une opacité dans le lobe droit, qui pourrait être une consolidation ou une fibrose. La cardiomégalie est également visible."",
+  ""predicted_class"": ""uncertain"",
+  ""uncertain_reason"": ""autre_anomalie"",
+  ""confidence"": 0.85,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+400a53d8-22e5-40d1-a846-be334bc5c363,uncertain,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""Câbles et tubes"",
+  ""visual_evidence"": ""Opacités bilatérales, plus prononcées dans les zones basales et interlobaires. Présence d'un cathéter dans la veine jugulaire droite et d'un tube de drainage dans le thorax droit."",
+  ""justification"": ""L'image est de bonne qualité, bien que quelques câbles et tubes soient visibles. Les opacités bilatérales, plus prononcées dans les zones basales et interlobaires, suggèrent une possible pneumonie ou une autre cause d'infiltrat pulmonaire. Le cathéter jugulaire droit et le tube de drainage thoracique sont également visibles."",
+  ""predicted_class"": ""suspected_opacity"",
+  ""uncertain_reason"": ""n/a"",
+  ""confidence"": 0.95,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+9e207408-a24d-4116-b581-6325de312196,normal,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""les poumons sont clairs, sans opacités suspectes. la cardiomégalie est absente. la positionnement est correct."",
+  ""justification"": ""l'image est de bonne qualité, les poumons sont clairs, sans opacités suspectes. la cardiomégalie est absente. la positionnement est correct."",
+  ""predicted_class"": ""normal"",
+  ""uncertain_reason"": ""n/a"",
+  ""confidence"": 0.95,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+db7d9187-7313-4dec-8ba6-1d36800c44d5,normal,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""la radiographie montre un diaphragme droit et gauche, des clavicules, des omoplates, et la colonne vertébrale. Les poumons sont clairs, sans opacités évidentes."",
+  ""justification"": ""L'image est de bonne qualité, avec une bonne exposition et une bonne résolution. Il n'y a pas d'opacités suspectes dans les poumons."",
+  ""predicted_class"": ""normal"",
+  ""uncertain_reason"": ""n/a"",
+  ""confidence"": 0.95,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+94ea3fe9-7dbb-491d-8c47-0d76b6888dad,normal,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""Câbles"",
+  ""visual_evidence"": ""Le thorax est bien visible. Les poumons sont clairs. Le cœur est de taille normale. Il y a une présence de câbles autour du cou."",
+  ""justification"": ""L'image est de bonne qualité, avec une bonne exposition et une bonne résolution. Les poumons sont clairs, sans opacité évidente. Le cœur est de taille normale. Les câbles autour du cou sont visibles."",
+  ""predicted_class"": ""normal"",
+  ""uncertain_reason"": ""n/a"",
+  ""confidence"": 0.95,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+cb686220-09d7-436f-ac1d-2e753c0330ac,normal,"{
+  ""image_quality"": ""moyenne"",
+  ""limitations"": ""câbles"",
+  ""visual_evidence"": ""présence de câbles et de cathéter"",
+  ""justification"": ""L'image est de qualité moyenne, avec des câbles et un cathéter visibles. Il est difficile de déterminer l'exacte nature de l'opacité dans le bas du poumon droit."",
+  ""predicted_class"": ""uncertain"",
+  ""uncertain_reason"": ""autre_anomalie"",
+  ""confidence"": 0.75,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+e8ffe2e2-7ded-4a59-b7cd-399940e5f3f1,suspected_opacity,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""Opacité dans le lobe supérieur gauche, possible épanchement pleural dans le lobe supérieur gauche, opacité dans le lobe inférieur droit"",
+  ""justification"": ""L'image est de bonne qualité. Il y a une opacité dans le lobe supérieur gauche, qui pourrait être une pneumonie ou un épanchement pleural. Il y a aussi une opacité dans le lobe inférieur droit, qui pourrait être une pneumonie ou une autre cause."",
+  ""predicted_class"": ""suspected_opacity"",
+  ""uncertain_reason"": ""autre_anomalie"",
+  ""confidence"": 0.85,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+4a2dd32c-2252-4035-92ef-f22f6eb70a15,normal,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""les poumons sont clairs, sans opacités suspectes. la cardiomégalie est absente. la position est correcte."",
+  ""justification"": ""l'image est de bonne qualité, avec une bonne exposition et une bonne résolution. il n'y a pas d'opacités suspectes dans les poumons. la cardiomégalie est absente. la position est correcte."",
+  ""predicted_class"": ""normal"",
+  ""uncertain_reason"": ""n/a"",
+  ""confidence"": 0.95,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+64618072-4f84-44db-8582-145fbc9bc868,normal,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""Le diaphragme gauche est légèrement abaissé. Le parenchyme pulmonaire est globalement clair. Le cœur et les grandes vaisseaux sont dans les limites de la normale."",
+  ""justification"": ""L'image est de bonne qualité et permet une évaluation des structures thoraciques. Le diaphragme gauche est abaissé, ce qui peut être dû à une cause non spécifique. Il n'y a pas d'opacité évocatrice de pneumonie."",
+  ""predicted_class"": ""normal"",
+  ""uncertain_reason"": ""n/a"",
+  ""confidence"": 0.95,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+4720c2ba-e4cf-40ab-b147-f8e713db9bad,uncertain,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""câbles"",
+  ""visual_evidence"": ""présence de câbles et de tubes dans le thorax"",
+  ""justification"": ""L'image est de bonne qualité, mais des câbles et des tubes sont visibles dans le thorax, ce qui peut affecter la visualisation des structures pulmonaires."",
+  ""predicted_class"": ""uncertain"",
+  ""uncertain_reason"": ""autre_anomalie"",
+  ""confidence"": 0.85,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+26c15b0a-9865-414d-94b2-5349e8903f88,suspected_opacity,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""Opacité dans le lobe supérieur droit, probable épanchement pleural. Opacité dans le lobe inférieur gauche, probable épanchement pleural. Cathéter visible dans la veine jugulaire."",
+  ""justification"": ""L'image est de bonne qualité. Il y a une opacité dans le lobe supérieur droit, qui pourrait être un épanchement pleural. Il y a aussi une opacité dans le lobe inférieur gauche, qui pourrait être un épanchement pleural. Un cathéter est visible dans la veine jugulaire."",
+  ""predicted_class"": ""uncertain"",
+  ""uncertain_reason"": ""autre_anomalie"",
+  ""confidence"": 0.85,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+98b52fd3-0c75-4302-b759-c731b7ca938c,normal,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""la radiographie montre un cœur de taille normale, des poumons clairs, et une clavicule droite visible."",
+  ""justification"": ""la qualité de l'image est bonne, et il n'y a pas de signes d'anomalie."",
+  ""predicted_class"": ""normal"",
+  ""uncertain_reason"": ""n/a"",
+  ""confidence"": 0.95,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+5f71c85d-f8c7-4e05-89db-a61537dc3f97,normal,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""les poumons sont clairs, sans opacités suspectes. la cardiomégalie est absente. la position est correcte."",
+  ""justification"": ""l'image est de bonne qualité, avec une bonne exposition et une bonne résolution. il n'y a pas d'opacités suspectes dans les poumons. la cardiomégalie est absente. la position est correcte."",
+  ""predicted_class"": ""normal"",
+  ""uncertain_reason"": ""n/a"",
+  ""confidence"": 0.95,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+3ac49fd1-c580-48f1-8e3c-6a50d3447ba7,normal,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""la radiographie montre un diaphragme droit et gauche, un sternum, des clavicules, des omoplates, et des omoplates. Les poumons sont clairs."",
+  ""justification"": ""la qualité de l'image est bonne, et il n'y a pas de signaux qui pourraient affecter la lecture."",
+  ""predicted_class"": ""normal"",
+  ""uncertain_reason"": ""n/a"",
+  ""confidence"": 0.99,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+6191f530-58d8-4dca-92c5-a7359e540a31,uncertain,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""présence de zones d'opacité dans les deux poumons, plus prononcées dans les zones basales et interlobaires, avec une distribution bilatérale."",
+  ""justification"": ""L'image montre des zones d'opacité dans les deux poumons, plus prononcées dans les zones basales et interlobaires, avec une distribution bilatérale. Ces zones d'opacité sont compatibles avec une pneumonie."",
+  ""predicted_class"": ""suspected_opacity"",
+  ""uncertain_reason"": ""n/a"",
+  ""confidence"": 0.95,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+3f774e0d-f367-4fa2-98cc-82845d21d5f6,suspected_opacity,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""câbles"",
+  ""visual_evidence"": ""présence de bilatéral opacités dans les zones basales, probable épanchement pleural"",
+  ""justification"": ""L'image est de bonne qualité. Il y a des opacités bilatérales dans les zones basales, ce qui suggère un épanchement pleural. Les câbles sont présents et peuvent masquer des détails."",
+  ""predicted_class"": ""uncertain"",
+  ""uncertain_reason"": ""autre_anomalie"",
+  ""confidence"": 0.85,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+78053750-8aa7-4755-a364-037d71a65426,suspected_opacity,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""câbles"",
+  ""visual_evidence"": ""Opacité diffuse dans le lobe supérieur gauche, opacité dans le lobe droit"",
+  ""justification"": ""L'image est de bonne qualité. Il y a une opacité diffuse dans le lobe supérieur gauche et une opacité dans le lobe droit. Ces opacités pourraient être dues à une pneumonie ou à un autre processus."",
+  ""predicted_class"": ""suspected_opacity"",
+  ""uncertain_reason"": ""autre_anomalie"",
+  ""confidence"": 0.85,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+0b1c0cf3-21b9-49f0-b33b-3e71b24295eb,normal,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""Câbles"",
+  ""visual_evidence"": ""Le cœur est apparenté. Il y a une opacité dans le bas du poumon gauche. Il y a un cathéter central."",
+  ""justification"": ""L'image est de bonne qualité. Le cœur est apparenté. Il y a une opacité dans le bas du poumon gauche. Il y a un cathéter central."",
+  ""predicted_class"": ""uncertain"",
+  ""uncertain_reason"": ""autre_anomalie"",
+  ""confidence"": 0.85,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+a5b450e0-3b30-4bba-aa08-28c375268f1c,normal,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""les poumons sont clairs, la cardiomégalie est absente, et il n'y a pas d'autres anomalies visibles."",
+  ""justification"": ""l'image est de bonne qualité, les poumons sont clairs, et il n'y a pas d'autres anomalies visibles."",
+  ""predicted_class"": ""normal"",
+  ""uncertain_reason"": ""n/a"",
+  ""confidence"": 0.99,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+195ddf15-9620-4827-97da-01a44d5842f7,suspected_opacity,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""câbles"",
+  ""visual_evidence"": ""présence d'un cathéter dans la veine jugulaire droite, présence de câbles et de tubes dans le thorax"",
+  ""justification"": ""L'image est de bonne qualité, mais les câbles et tubes peuvent affecter la visualisation des poumons."",
+  ""predicted_class"": ""uncertain"",
+  ""uncertain_reason"": ""autre_anomalie"",
+  ""confidence"": 0.85,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+eb9fd705-1d3a-4740-925b-8fdf39eb82a5,uncertain,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""Absence de câbles ou de flou"",
+  ""visual_evidence"": ""Il y a une opacité dans le bas du poumon gauche, et une opacité dans le bas du poumon droit. Il y a aussi une opacité dans le bas du poumon droit."",
+  ""justification"": ""L'image est de bonne qualité. Il y a une opacité dans le bas du poumon gauche, et une opacité dans le bas du poumon droit. Il y a aussi une opacité dans le bas du poumon droit."",
+  ""predicted_class"": ""uncertain"",
+  ""uncertain_reason"": ""autre_anomalie"",
+  ""confidence"": 0.85,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+9f64795e-f4ca-4931-ac92-f5a41b292227,uncertain,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""câbles"",
+  ""visual_evidence"": ""Opacité dans le lobe supérieur droit, possible épanchement pleural gauche"",
+  ""justification"": ""L'image est de bonne qualité. Il y a une opacité dans le lobe supérieur droit, qui pourrait être une pneumonie ou une autre cause. Il y a aussi un possible épanchement pleural gauche."",
+  ""predicted_class"": ""uncertain"",
+  ""uncertain_reason"": ""autre_anomalie"",
+  ""confidence"": 0.85,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+c8d798bb-5bcb-4ca0-8b16-e360805aac69,suspected_opacity,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""Opacité dans les bases pulmonaires, notamment sur le côté droit."",
+  ""justification"": ""L'image montre une opacité dans les bases pulmonaires, plus prononcée sur le côté droit. L'aspect de l'opacité est évocateur d'une pneumonie."",
+  ""predicted_class"": ""suspected_opacity"",
+  ""uncertain_reason"": ""n/a"",
+  ""confidence"": 0.95,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+38e68dfa-d76e-4d4a-9fa8-4a9d86f1a380,uncertain,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""la radiographie montre les deux poumons, le cœur, et la cage thoracique. Les poumons sont clairs. Il y a un cathéter visible dans la veine jugulaire."",
+  ""justification"": ""la qualité de l'image est bonne, et il n'y a pas de limitations. Les poumons sont clairs, et il y a un cathéter visible dans la veine jugulaire."",
+  ""predicted_class"": ""normal"",
+  ""uncertain_reason"": ""n/a"",
+  ""confidence"": 0.95,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+9e98ccb4-e0b8-44de-acd0-4927030264d3,suspected_opacity,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""Câbles et tubes"",
+  ""visual_evidence"": ""Opacité dans le lobe supérieur droit, opacité dans le lobe inférieur gauche"",
+  ""justification"": ""L'image est de bonne qualité. Il y a une opacité dans le lobe supérieur droit et une opacité dans le lobe inférieur gauche. Ces opacités pourraient être des infiltrats ou une consolidation."",
+  ""predicted_class"": ""suspected_opacity"",
+  ""uncertain_reason"": ""n/a"",
+  ""confidence"": 0.85,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+fabcaf4a-8724-4d33-848a-541457221d89,uncertain,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""Opacité dans le bas du lobe droit, probable épanchement pleural. Opacité dans le bas du lobe gauche, probable épanchement pleural. Le cathéter de drainage est visible."",
+  ""justification"": ""L'image est de bonne qualité. Il y a une opacité dans le bas du lobe droit, qui pourrait être un épanchement pleural. Il y a aussi une opacité dans le bas du lobe gauche, qui pourrait être un épanchement pleural. Le cathéter de drainage est visible."",
+  ""predicted_class"": ""uncertain"",
+  ""uncertain_reason"": ""autre_anomalie"",
+  ""confidence"": 0.85,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+5b9dbcce-4621-4180-bd1d-805b3ce9d7e0,suspected_opacity,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""la radiographie montre les poumons, le cœur, la cage thoracique et les clavicules. Les poumons sont clairs, sans opacités évidentes. Le cœur est de taille normale. La cage thoracique est normale."",
+  ""justification"": ""L'image est de bonne qualité et permet une évaluation des structures thoraciques. Il n'y a pas d'opacité évocatrice de pneumonie."",
+  ""predicted_class"": ""normal"",
+  ""uncertain_reason"": ""n/a"",
+  ""confidence"": 0.95,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+634dc2f2-faf9-44da-a5f2-011870025110,normal,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""la radiographie montre un diaphragme droit et gauche, des clavicules, et la silhouette du sternum. Les poumons sont clairs. Un cathéter est visible dans la veine jugulaire gauche."",
+  ""justification"": ""La qualité de l'image est bonne. Les poumons sont clairs, sans opacités suspectes. Le cathéter est visible."",
+  ""predicted_class"": ""normal"",
+  ""uncertain_reason"": ""n/a"",
+  ""confidence"": 0.95,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+fbd6b078-cca9-4c7c-8170-af5d714e49bd,uncertain,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""La radiographie montre une opacité dans le lobe supérieur droit, avec une dilatation de la veine cave."",
+  ""justification"": ""L'opacité dans le lobe supérieur droit est évocatrice d'une pneumonie. La dilatation de la veine cave est une autre observation."",
+  ""predicted_class"": ""suspected_opacity"",
+  ""uncertain_reason"": ""n/a"",
+  ""confidence"": 0.95,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+d5277276-f8f8-40e9-b8e1-791cf5d96ac0,suspected_opacity,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""câbles"",
+  ""visual_evidence"": ""présence d'une opacité dans le bas du poumon gauche, possible épanchement pleural"",
+  ""justification"": ""L'image est de bonne qualité. Il y a une opacité dans le bas du poumon gauche, qui pourrait être due à un épanchement pleural. Il y a aussi une opacité dans le bas du poumon droit, qui pourrait être due à une pneumonie."",
+  ""predicted_class"": ""uncertain"",
+  ""uncertain_reason"": ""autre_anomalie"",
+  ""confidence"": 0.85,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+def7d5e4-d3cf-4374-a021-cff683363c78,normal,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""câbles"",
+  ""visual_evidence"": ""la qualité de l'image est bonne. Il y a des câbles visibles dans le champ de vision."",
+  ""justification"": ""L'image est bien exposée et la qualité est bonne. Les câbles sont visibles, mais ne bloquent pas la vue des poumons."",
+  ""predicted_class"": ""normal"",
+  ""uncertain_reason"": ""n/a"",
+  ""confidence"": 0.95,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+e50ef848-ecce-454d-908e-17fa314f1959,normal,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""les poumons sont clairs, la cardiomégalie est absente, et il n'y a pas d'épanchement pleural visible."",
+  ""justification"": ""l'image est de bonne qualité, et il n'y a pas d'anomalies visibles."",
+  ""predicted_class"": ""normal"",
+  ""uncertain_reason"": ""n/a"",
+  ""confidence"": 0.95,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+67d27fb3-23c8-44b7-aec5-ed80e9bf6a71,normal,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""Câbles et tubes"",
+  ""visual_evidence"": ""Le cœur est légèrement augmenté de taille. Il y a une opacité dans le lobe supérieur droit."",
+  ""justification"": ""L'image est de bonne qualité. Le cœur est légèrement augmenté de taille. Il y a une opacité dans le lobe supérieur droit."",
+  ""predicted_class"": ""uncertain"",
+  ""uncertain_reason"": ""autre_anomalie"",
+  ""confidence"": 0.85,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+d0370ad5-e503-4826-be45-b710ffc5066f,suspected_opacity,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""câbles"",
+  ""visual_evidence"": ""présence de câbles et de tubes dans le thorax"",
+  ""justification"": ""L'image est de bonne qualité, mais les câbles et tubes sont présents et peuvent masquer des détails pulmonaires."",
+  ""predicted_class"": ""uncertain"",
+  ""uncertain_reason"": ""autre_anomalie"",
+  ""confidence"": 0.85,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+5b459a1a-9564-4d1a-93cc-4c3d41bbf0f9,uncertain,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""Opacité importante dans le lobe droit, probablement un épanchement pleural. Le lobe gauche semble normal."",
+  ""justification"": ""L'image est de bonne qualité. Il y a une grande opacité dans le lobe droit, ce qui suggère un épanchement pleural. Le lobe gauche est visible et semble normal."",
+  ""predicted_class"": ""uncertain"",
+  ""uncertain_reason"": ""autre_anomalie"",
+  ""confidence"": 0.95,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+d9c2358b-2f9f-4b13-962b-1b965316e801,normal,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""les poumons sont clairs, sans opacités suspectes. la cardiomégalie est absente. la position est correcte."",
+  ""justification"": ""l'image est de bonne qualité, avec une bonne exposition et une bonne résolution. il n'y a pas d'opacités suspectes dans les poumons. la cardiomégalie est absente. la position est correcte."",
+  ""predicted_class"": ""normal"",
+  ""uncertain_reason"": ""n/a"",
+  ""confidence"": 0.95,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+f58c7fae-cc03-4096-b181-ed0ef21cca33,normal,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""la radiographie est une image frontale du thorax. les poumons sont clairs, sans opacités évidentes. le cœur est de taille normale. le diaphragme est bien visible. un cathéter est visible dans la veine jugulaire."",
+  ""justification"": ""la radiographie est de bonne qualité et permet une évaluation des poumons et du cœur. il n'y a pas d'opacité évocatrice de pneumonie."",
+  ""predicted_class"": ""normal"",
+  ""uncertain_reason"": ""n/a"",
+  ""confidence"": 0.95,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+f91c1b44-d084-441a-83ef-97dc5a71cac8,normal,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""les poumons sont clairs, le cœur est de taille normale, et il n'y a pas d'anomalies visibles."",
+  ""justification"": ""l'image est de bonne qualité, les poumons sont clairs, le cœur est de taille normale, et il n'y a pas d'anomalies visibles."",
+  ""predicted_class"": ""normal"",
+  ""uncertain_reason"": ""n/a"",
+  ""confidence"": 0.95,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+ae5041f8-a77d-4078-9148-6253192db07a,suspected_opacity,"{
+  ""image_quality"": ""moyenne"",
+  ""limitations"": ""Le patient est en position portable, ce qui peut affecter la qualité de l'image."",
+  ""visual_evidence"": ""Il y a une opacité dans le lobe supérieur gauche, qui pourrait être due à une pneumonie ou à un autre processus."",
+  ""justification"": ""L'image est de qualité moyenne en raison de la position portable. Il y a une opacité dans le lobe supérieur gauche, qui pourrait être due à une pneumonie ou à un autre processus."",
+  ""predicted_class"": ""suspected_opacity"",
+  ""uncertain_reason"": ""autre_anomalie"",
+  ""confidence"": 0.85,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+46d4f816-7025-45d3-a04a-659aef134db0,normal,"{""image_quality"": ""n/a"", ""visual_evidence"": ""n/a"", ""justification"": ""Classé en mode dégradé (récupération après échec JSON) — sans justification."", ""predicted_class"": ""normal"", ""uncertain_reason"": ""n/a"", ""confidence"": null, ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""}",True
+43e51c0e-1a39-4476-bb12-c04d89783b8b,suspected_opacity,"{
+  ""image_quality"": ""moyenne"",
+  ""limitations"": ""câbles"",
+  ""visual_evidence"": ""présence de câbles et de dispositifs médicaux dans le thorax"",
+  ""justification"": ""l'image est de bonne qualité, mais les câbles et les dispositifs médicaux peuvent affecter la visualisation des poumons"",
+  ""predicted_class"": ""uncertain"",
+  ""uncertain_reason"": ""qualite_image"",
+  ""confidence"": 0.85,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+4ffaaaaf-e5b0-4a08-ab6e-b2d1c913e942,uncertain,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""La radiographie montre un sternum droit avec un cathéter/dispositif visible. Les poumons sont clairs. Le cœur est de taille normale. Les côtes sont bien visibles."",
+  ""justification"": ""La qualité de l'image est bonne. Il y a un cathéter/dispositif visible sur le sternum droit. Les poumons sont clairs sans opacité évocatrice de pneumonie. Le cœur est de taille normale. Les côtes sont bien visibles."",
+  ""predicted_class"": ""normal"",
+  ""uncertain_reason"": ""n/a"",
+  ""confidence"": 0.95,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+62674d28-79d2-4166-966d-bcf789f9ae3a,normal,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""câbles"",
+  ""visual_evidence"": ""Opacité dans le lobe supérieur droit"",
+  ""justification"": ""L'image est de bonne qualité. Il y a une opacité dans le lobe supérieur droit, qui pourrait être une pneumonie. Il y a aussi des câbles qui sont visibles."",
+  ""predicted_class"": ""suspected_opacity"",
+  ""uncertain_reason"": ""autre_anomalie"",
+  ""confidence"": 0.95,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+37ae5e7e-007e-4f68-be2a-40a4f5d67cbe,suspected_opacity,"{
+  ""image_quality"": ""moyenne"",
+  ""limitations"": ""Câbles"",
+  ""visual_evidence"": ""Opacité dans les zones basales des poumons, possible épanchement pleural"",
+  ""justification"": ""L'image est de bonne qualité, mais les câbles sont présents. Il y a une opacité dans les zones basales des poumons, ce qui pourrait être une pneumonie ou un épanchement pleural. L'aspect est non spécifique."",
+  ""predicted_class"": ""uncertain"",
+  ""uncertain_reason"": ""autre_anomalie"",
+  ""confidence"": 0.75,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+cb1bd775-619d-43f1-9049-39125551e69d,uncertain,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""la radiographie montre une opacité dans le lobe supérieur gauche, et une opacité dans le lobe inférieur droit"",
+  ""justification"": ""l'image est de bonne qualité, et il y a une opacité dans le lobe supérieur gauche et une opacité dans le lobe inférieur droit"",
+  ""predicted_class"": ""suspected_opacity"",
+  ""uncertain_reason"": ""n/a"",
+  ""confidence"": 0.95,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+611a6d3a-3c10-4fe4-9bd5-af17ba537486,normal,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""les poumons sont clairs, la cardiomégalie est absente, et il n'y a pas d'autres anomalies visibles."",
+  ""justification"": ""l'image est de bonne qualité, les poumons sont clairs, et il n'y a pas d'autres anomalies visibles."",
+  ""predicted_class"": ""normal"",
+  ""uncertain_reason"": ""n/a"",
+  ""confidence"": 0.95,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+a94a5734-6a7b-4461-9d13-dcb187808da8,uncertain,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""les poumons sont clairs, sans opacités évidentes. la cardiomégalie est absente. la positionnement est correct."",
+  ""justification"": ""l'image est de bonne qualité, les poumons sont clairs, sans opacités évidentes. la cardiomégalie est absente. la positionnement est correct."",
+  ""predicted_class"": ""normal"",
+  ""uncertain_reason"": ""n/a"",
+  ""confidence"": 0.95,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+32e9a5df-2282-4204-8355-030f26816f33,uncertain,"{""image_quality"": ""n/a"", ""visual_evidence"": ""n/a"", ""justification"": ""Classé en mode dégradé (récupération après échec JSON) — sans justification."", ""predicted_class"": ""uncertain"", ""uncertain_reason"": ""n/a"", ""confidence"": null, ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""}",True
+07f78db5-7d9a-4ba0-a00f-02c36953020f,suspected_opacity,"{
+  ""image_quality"": ""moyenne"",
+  ""limitations"": ""câbles"",
+  ""visual_evidence"": ""présence de zones d'opacité dans les deux poumons, surtout dans les zones basales, et possible épanchement pleural droit"",
+  ""justification"": ""L'image est de bonne qualité, mais les câbles et les tubes sont présents et peuvent affecter la visualisation"",
+  ""predicted_class"": ""suspected_opacity"",
+  ""uncertain_reason"": ""autre_anomalie"",
+  ""confidence"": 0.85,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+76f00430-861f-4370-9e06-dd5b9692b669,suspected_opacity,"{
+  ""image_quality"": ""moyenne"",
+  ""limitations"": ""câbles"",
+  ""visual_evidence"": ""présence de câbles et de tubes"",
+  ""justification"": ""L'image est de qualité moyenne, avec des câbles et des tubes visibles qui peuvent affecter la clarté de l'image. Il y a une opacité dans les zones pulmonaires."",
+  ""predicted_class"": ""suspected_opacity"",
+  ""uncertain_reason"": ""autre_anomalie"",
+  ""confidence"": 0.85,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+4ff93b63-f90a-4b02-9075-d8b0b5ce6e4b,uncertain,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""la radiographie montre un diaphragme gauche légèrement abaissé, une opacité dans le bas du lobe supérieur gauche et une opacité dans le bas du lobe inférieur gauche."",
+  ""justification"": ""la radiographie montre un diaphragme gauche légèrement abaissé, une opacité dans le bas du lobe supérieur gauche et une opacité dans le bas du lobe inférieur gauche."",
+  ""predicted_class"": ""uncertain"",
+  ""uncertain_reason"": ""autre_anomalie"",
+  ""confidence"": 0.85,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+b24bde0d-d372-4522-b8bb-0fbc770b80ac,suspected_opacity,"{
+  ""image_quality"": ""moyenne"",
+  ""limitations"": ""câbles"",
+  ""visual_evidence"": ""présence de câbles et de tubes"",
+  ""justification"": ""L'image est de qualité moyenne en raison de la présence de câbles et de tubes qui peuvent affecter la clarté de l'image. Il y a une opacité dans le bas du poumon gauche."",
+  ""predicted_class"": ""suspected_opacity"",
+  ""uncertain_reason"": ""autre_anomalie"",
+  ""confidence"": 0.85,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+7a74e2ed-5942-4cbc-b5cb-84a4f5ccf105,normal,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""la radiographie montre un cœur de taille normale, des poumons clairs, et une clavicule gauche avec un cathéter visible."",
+  ""justification"": ""la qualité de l'image est bonne, et il n'y a pas de signes d'anomalie."",
+  ""predicted_class"": ""normal"",
+  ""uncertain_reason"": ""n/a"",
+  ""confidence"": 0.95,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+b6c45f07-6068-46af-b35d-302cd05ed4d2,suspected_opacity,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""Opacité dans le bas du lobe droit, possible épanchement pleural"",
+  ""justification"": ""L'image est de bonne qualité. Il y a une opacité dans le bas du lobe droit, qui pourrait être une consolidation ou un épanchement pleural. Il y a aussi une opacité dans le lobe supérieur gauche."",
+  ""predicted_class"": ""suspected_opacity"",
+  ""uncertain_reason"": ""autre_anomalie"",
+  ""confidence"": 0.85,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+3330f82a-8a0b-4d69-a5a7-a2bee99c9405,uncertain,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""Le poumon droit est clair. Le poumon gauche présente une opacité dans le lobe supérieur et moyen. Le diaphragme est visible. Le sternum est visible."",
+  ""justification"": ""L'image est de bonne qualité. Il y a une opacité dans le lobe supérieur et moyen du poumon gauche, ce qui pourrait être une pneumonie ou une autre cause."",
+  ""predicted_class"": ""suspected_opacity"",
+  ""uncertain_reason"": ""autre_anomalie"",
+  ""confidence"": 0.85,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+fd78ad6a-c1ea-4ebf-826b-55bf09cfceff,normal,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""les poumons sont clairs, sans opacités suspectes. la cardiomégalie est absente. la position est correcte."",
+  ""justification"": ""l'image est de bonne qualité, avec une bonne exposition et une bonne résolution. il n'y a pas d'opacités suspectes dans les poumons. la cardiomégalie est absente. la position est correcte."",
+  ""predicted_class"": ""normal"",
+  ""uncertain_reason"": ""n/a"",
+  ""confidence"": 0.95,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+db9ffc16-5076-4f41-8693-dd1d54a9daaf,normal,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""la radiographie montre une image thoracique frontale avec des poumons clairs, une cardiomégalie et une colonne vertébrale courbée."",
+  ""justification"": ""la qualité de l'image est bonne, et il n'y a pas de limites. les poumons sont clairs, et il n'y a pas d'opacité évocatrice d'une pneumonie. la cardiomégalie et la courbure de la colonne vertébrale sont visibles."",
+  ""predicted_class"": ""normal"",
+  ""uncertain_reason"": ""n/a"",
+  ""confidence"": 0.95,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+6fce7a48-4cdc-4bbb-a702-2b0af9ff3498,suspected_opacity,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""Opacité dans le lobe supérieur droit, opacité dans le lobe supérieur gauche, cathéter central"",
+  ""justification"": ""L'image est de bonne qualité. Il y a une opacité dans le lobe supérieur droit, qui pourrait être une pneumonie. Il y a aussi une opacité dans le lobe supérieur gauche, qui pourrait être une pneumonie. Il y a aussi un cathéter central."",
+  ""predicted_class"": ""suspected_opacity"",
+  ""uncertain_reason"": ""n/a"",
+  ""confidence"": 0.95,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+084aa98a-91aa-45d8-aa52-4fad8344b0bf,suspected_opacity,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""Câbles et tubes"",
+  ""visual_evidence"": ""Il y a une opacité dans les zones basales des poumons, bilatéralement. Il y a aussi une opacité dans le lobe supérieur droit."",
+  ""justification"": ""L'image est de bonne qualité, mais les câbles et tubes sont présents. Il y a une opacité dans les zones basales des poumons, bilatéralement. Il y a aussi une opacité dans le lobe supérieur droit."",
+  ""predicted_class"": ""suspected_opacity"",
+  ""uncertain_reason"": ""autre_anomalie"",
+  ""confidence"": 0.95,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+47c78742-4998-4878-aec4-37b11b1354ac,normal,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""les poumons sont clairs, sans opacités suspectes. la cardiomégalie est absente. la position est correcte."",
+  ""justification"": ""l'image est de bonne qualité, avec une bonne exposition et une bonne résolution. il n'y a pas d'opacités suspectes dans les poumons. la cardiomégalie est absente. la position est correcte."",
+  ""predicted_class"": ""normal"",
+  ""uncertain_reason"": ""n/a"",
+  ""confidence"": 0.95,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+ecbaa3c2-2a24-45a7-8585-c897195ffbb0,uncertain,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""L'image montre un thorax avec des poumons clairs, un médiastin et une cage thoracique. Il y a une opacité dans le bas du lobe supérieur droit et une opacité dans le bas du lobe gauche."",
+  ""justification"": ""L'image est de bonne qualité et permet de visualiser les structures thoraciques. Il y a une opacité dans le bas du lobe supérieur droit et une opacité dans le bas du lobe gauche."",
+  ""predicted_class"": ""uncertain"",
+  ""uncertain_reason"": ""autre_anomalie"",
+  ""confidence"": 0.85,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+5717252c-482a-4279-9456-535d39f333d0,normal,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""les poumons sont clairs, la cardiomégalie est absente, et les structures osseuses sont bien visibles."",
+  ""justification"": ""l'image est de bonne qualité, les poumons sont clairs, et il n'y a pas d'anomalie évidente."",
+  ""predicted_class"": ""normal"",
+  ""uncertain_reason"": ""n/a"",
+  ""confidence"": 0.95,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+8cb61d47-d7fe-4e31-a6eb-2d76f5f26336,normal,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""les poumons sont clairs, sans opacités suspectes. la cardiomégalie est absente. le diaphragme est bien visible."",
+  ""justification"": ""l'image est de bonne qualité, avec une bonne exposition et une bonne résolution. il n'y a pas d'opacités suspectes dans les poumons. le diaphragme est bien visible."",
+  ""predicted_class"": ""normal"",
+  ""uncertain_reason"": ""n/a"",
+  ""confidence"": 0.95,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+59ceee49-67e6-4a01-99e4-98e554fa6794,suspected_opacity,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""câbles"",
+  ""visual_evidence"": ""présence de multiples opacités dans les deux poumons, avec une distribution diffuse et une certaine homogénéité."",
+  ""justification"": ""L'image montre une opacité diffuse dans les deux poumons, ce qui est évocateur d'une pneumonie. Les câbles sont présents."",
+  ""predicted_class"": ""suspected_opacity"",
+  ""uncertain_reason"": ""n/a"",
+  ""confidence"": 0.95,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+b181eb13-a6b0-4576-afcd-0e23c90723ba,suspected_opacity,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""Câbles et tubes"",
+  ""visual_evidence"": ""Opacité dans le bas du poumon gauche, possible épanchement pleural"",
+  ""justification"": ""L'image est de bonne qualité. Il y a une opacité dans le bas du poumon gauche, qui pourrait être due à un épanchement pleural. Il y a aussi une opacité dans le bas du poumon droit, qui pourrait être due à une pneumonie."",
+  ""predicted_class"": ""suspected_opacity"",
+  ""uncertain_reason"": ""autre_anomalie"",
+  ""confidence"": 0.85,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+5341f2bc-e62c-433a-80b8-439035520842,uncertain,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""Opacité dans le lobe supérieur droit, possible consolidation ou infiltrat."",
+  ""justification"": ""L'image est de bonne qualité. Il y a une opacité dans le lobe supérieur droit, qui pourrait être une consolidation ou un infiltrat. Il est difficile de déterminer l'exacte nature de l'opacité sans informations supplémentaires."",
+  ""predicted_class"": ""suspected_opacity"",
+  ""uncertain_reason"": ""autre_anomalie"",
+  ""confidence"": 0.85,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+16f580c9-9242-4535-8fb6-a1724f4bbf34,suspected_opacity,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""Câbles et dispositifs médicaux"",
+  ""visual_evidence"": ""Opacité diffuse dans les deux poumons, possible épanchement pleural droit, cardiomégalie"",
+  ""justification"": ""L'image est de bonne qualité, mais les câbles et dispositifs médicaux (ventilateur, cathéter) peuvent masquer des détails. Il y a une opacité diffuse dans les deux poumons, ce qui pourrait indiquer une pneumonie ou une autre cause d'infiltrat. Il y a aussi une opacité dans le bas du poumon droit, ce qui pourrait être un épanchement pleural. Le cœur semble plus gros que normal (cardiomégalie)."",
+  ""predicted_class"": ""uncertain"",
+  ""uncertain_reason"": ""autre_anomalie"",
+  ""confidence"": 0.85,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+6f3873c9-b46c-400b-ab7f-4f6f8e69476f,uncertain,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""câbles"",
+  ""visual_evidence"": ""présence de multiples câbles et tubes dans le thorax, y compris une trachéotomie, un cathéter pulmonaire, un cathéter jugulaire et un cathéter de drainage pleural"",
+  ""justification"": ""L'image est de bonne qualité, mais les câbles et tubes peuvent masquer des détails pulmonaires. Il y a une opacité dans le bas du poumon droit et une opacité dans le bas du poumon gauche."",
+  ""predicted_class"": ""uncertain"",
+  ""uncertain_reason"": ""autre_anomalie"",
+  ""confidence"": 0.85,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+93352cf0-4e4c-4b86-b132-c6f0c492537e,uncertain,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""La radiographie montre un thorax avec des poumons clairs, un médiastin et une cage thoracique. Il y a un cathéter visible dans la veine jugulaire droite."",
+  ""justification"": ""La qualité de l'image est bonne. Les poumons sont clairs, sans opacités évidentes. Le médiastin et la cage thoracique sont visibles. Le cathéter dans la veine jugulaire droite est visible."",
+  ""predicted_class"": ""normal"",
+  ""uncertain_reason"": ""n/a"",
+  ""confidence"": 0.95,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+48b71876-62c7-44c0-91b1-0952bbca6291,suspected_opacity,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""L'image montre un thorax avec des poumons clairs à l'hémithorax gauche. L'hémithorax droit présente une opacité dans la base, probablement due à un épanchement pleural. Un cathéter est visible dans la région abdominale."",
+  ""justification"": ""L'image est de bonne qualité et permet une évaluation des poumons et de la structure thoracique. L'opacité dans la base du côté droit est évocatrice d'un épanchement pleural. Le cathéter abdominal est également visible."",
+  ""predicted_class"": ""uncertain"",
+  ""uncertain_reason"": ""autre_anomalie"",
+  ""confidence"": 0.85,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+bfe24f55-140f-4a6a-a8ed-d0a188316c03,normal,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""la radiographie montre un diaphragme droit et gauche, des côtes, et la silhouette du cœur. Les poumons sont clairs."",
+  ""justification"": ""la qualité de l'image est bonne, et il n'y a pas de signaux qui pourraient affecter la lecture."",
+  ""predicted_class"": ""normal"",
+  ""uncertain_reason"": ""n/a"",
+  ""confidence"": 0.99,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+c8f5de6e-8cf8-4f8c-b8c9-a844080da4f4,normal,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""Le thorax est bien visible. Les poumons sont clairs. Le cœur est de taille normale. Il y a un cathéter visible dans la veine jugulaire."",
+  ""justification"": ""L'image est de bonne qualité, avec une bonne exposition et une bonne résolution. Les poumons sont clairs sans opacité évidente. Le cœur est de taille normale. Il y a un cathéter visible dans la veine jugulaire."",
+  ""predicted_class"": ""normal"",
+  ""uncertain_reason"": ""n/a"",
+  ""confidence"": 0.95,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+c4c9b6c7-69ff-4360-90fa-2b9c61afa908,uncertain,"{
+  ""image_quality"": ""moyenne"",
+  ""limitations"": ""câbles, flou"",
+  ""visual_evidence"": ""présence d'une opacité dans le lobe supérieur gauche, présence d'une opacité dans le lobe inférieur droit, cardiomégalie"",
+  ""justification"": ""L'image est de qualité moyenne. Il y a une opacité dans le lobe supérieur gauche, qui pourrait être une consolidation ou un épanchement pleural. Il y a aussi une opacité dans le lobe inférieur droit, qui pourrait être une consolidation ou un épanchement pleural. La cardiomégalie est visible. Les câbles et le flou peuvent affecter la qualité de l'image."",
+  ""predicted_class"": ""uncertain"",
+  ""uncertain_reason"": ""autre_anomalie"",
+  ""confidence"": 0.85,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+410f690c-a41c-4891-a764-d221a8726747,uncertain,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""Le thorax est bien visible. Les poumons sont clairs. Le cœur est de taille normale. Il n'y a pas d'épanchement pleural visible."",
+  ""justification"": ""L'image est de bonne qualité, avec une bonne exposition et une bonne résolution. Les poumons sont clairs, sans opacité suspecte. Le cœur est de taille normale. Il n'y a pas d'épanchement pleural visible."",
+  ""predicted_class"": ""normal"",
+  ""uncertain_reason"": ""n/a"",
+  ""confidence"": 0.95,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+614af470-e19d-4013-baa2-eae7e2b0198a,normal,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""les poumons sont clairs, la cardiomégalie n'est pas visible, et la positionnement est correct"",
+  ""justification"": ""l'image est de bonne qualité, les poumons sont clairs, et il n'y a pas de signes d'anomalie"",
+  ""predicted_class"": ""normal"",
+  ""uncertain_reason"": ""n/a"",
+  ""confidence"": 0.95,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+97a95d80-62cd-460f-8773-1fd9219d69b4,normal,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""les poumons sont clairs, la cardiomégalie est absente, et il n'y a pas d'épanchement pleural visible."",
+  ""justification"": ""l'image est de bonne qualité, les poumons sont clairs, et il n'y a pas d'anomalie évocatrice d'une pneumonie."",
+  ""predicted_class"": ""normal"",
+  ""uncertain_reason"": ""n/a"",
+  ""confidence"": 0.95,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+66aa8f78-13e3-4e42-94a2-75e41d43f7f6,normal,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""la radiographie montre un sternum droit avec une fracture visible. Les poumons sont clairs. Le cœur est de taille normale."",
+  ""justification"": ""la radiographie est de bonne qualité et montre un sternum droit avec une fracture visible. Les poumons sont clairs. Le cœur est de taille normale."",
+  ""predicted_class"": ""uncertain"",
+  ""uncertain_reason"": ""autre_anomalie"",
+  ""confidence"": 0.85,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+90cdd0b1-e8b4-40e7-bd3c-ae5a5674db3c,suspected_opacity,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""Câbles et tubes"",
+  ""visual_evidence"": ""Opacités bilatérales et diffuse dans les poumons, avec une distribution qui suggère une pneumopathie."",
+  ""justification"": ""L'image montre une opacité diffuse dans les deux poumons, ce qui est évocateur d'une pneumopathie. Les câbles et tubes sont présents et peuvent affecter la qualité de l'image."",
+  ""predicted_class"": ""suspected_opacity"",
+  ""uncertain_reason"": ""n/a"",
+  ""confidence"": 0.95,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+cf5ba79f-bd76-484d-9a1a-ec336aeb1c72,uncertain,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""Câbles et dispositifs médicaux"",
+  ""visual_evidence"": ""Cardiomégalie, opacité dans le bas du poumon droit, présence de câbles et de dispositifs médicaux"",
+  ""justification"": ""L'image est de bonne qualité, mais les câbles et dispositifs médicaux peuvent affecter la visualisation des poumons. Il y a une cardiomégalie et une opacité dans le bas du poumon droit, qui pourraient être des signes d'une pneumonie ou d'un épanchement pleural. Les câbles et dispositifs médicaux sont présents."",
+  ""predicted_class"": ""uncertain"",
+  ""uncertain_reason"": ""autre_anomalie"",
+  ""confidence"": 0.85,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+350f4912-22e9-43d2-8ed6-18adc0f61b12,normal,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""les poumons sont clairs, la cardiomégalie est absente, et il n'y a pas d'épanchement pleural visible."",
+  ""justification"": ""l'image est de bonne qualité, les poumons sont clairs, et il n'y a pas d'anomalie évocatrice d'une pneumonie."",
+  ""predicted_class"": ""normal"",
+  ""uncertain_reason"": ""n/a"",
+  ""confidence"": 0.95,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+733849d7-bb10-44f6-812e-822c8e385d69,uncertain,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""la radiographie est une image frontale du thorax. les poumons sont clairs, sans opacités évidentes. le cœur et les grandes vaisseaux sont dans des limites normales. il y a un cathéter visible dans la veine jugulaire."",
+  ""justification"": ""la qualité de l'image est bonne, et il n'y a pas d'anomalie évidente. le cathéter est visible."",
+  ""predicted_class"": ""normal"",
+  ""uncertain_reason"": ""n/a"",
+  ""confidence"": 0.95,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+81c65b76-5600-4c2d-97ee-4281405f20b5,uncertain,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""Câbles"",
+  ""visual_evidence"": ""Le patient est en position portative. Un cathéter est visible dans la veine jugulaire droite. Il y a une opacité dans le lobe bas du poumon gauche."",
+  ""justification"": ""L'image est de bonne qualité. Le cathéter jugulaire droit est visible. Il y a une opacité dans le lobe bas du poumon gauche, qui pourrait être due à une pneumonie ou à une autre cause."",
+  ""predicted_class"": ""suspected_opacity"",
+  ""uncertain_reason"": ""autre_anomalie"",
+  ""confidence"": 0.85,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+0989935f-d8e5-4b59-a72e-077da14ba7f6,normal,"{""image_quality"": ""n/a"", ""visual_evidence"": ""n/a"", ""justification"": ""Classé en mode dégradé (récupération après échec JSON) — sans justification."", ""predicted_class"": ""normal"", ""uncertain_reason"": ""n/a"", ""confidence"": null, ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""}",True
+7a32a64b-a415-4585-a110-981b913ac959,suspected_opacity,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""La radiographie montre une opacité dans le lobe supérieur gauche, une opacité diffuse dans les deux poumons, et une position de la trachéotomie."",
+  ""justification"": ""L'image est de bonne qualité. Il y a une opacité dans le lobe supérieur gauche, une opacité diffuse dans les deux poumons, et une position de la trachéotomie."",
+  ""predicted_class"": ""uncertain"",
+  ""uncertain_reason"": ""autre_anomalie"",
+  ""confidence"": 0.85,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+fd676e0b-14e6-40d4-8c4a-85d028559ad1,suspected_opacity,"{
+  ""image_quality"": ""moyenne"",
+  ""limitations"": ""câbles"",
+  ""visual_evidence"": ""présence de zones d'opacité dans les deux poumons, surtout dans les zones supérieures et médiales, avec une distribution asymétrique."",
+  ""justification"": ""L'image montre des opacités dans les poumons, ce qui suggère une possible pneumonie ou une autre condition pulmonaire. La qualité de l'image est moyenne, et les câbles sont visibles."",
+  ""predicted_class"": ""suspected_opacity"",
+  ""uncertain_reason"": ""n/a"",
+  ""confidence"": 0.85,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+f5da329a-7e4b-4aaa-afdd-f9446143cc16,uncertain,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""La radiographie montre des poumons clairs, une cardiomégalie et un cathéter central."",
+  ""justification"": ""La qualité de l'image est bonne. Il y a une cardiomégalie et un cathéter central. Les poumons sont clairs."",
+  ""predicted_class"": ""normal"",
+  ""uncertain_reason"": ""n/a"",
+  ""confidence"": 0.95,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+bbafb79d-3419-47a4-97f0-1cb8c64feb24,suspected_opacity,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""Câbles et dispositifs médicaux"",
+  ""visual_evidence"": ""Opacité dans le lobe bas du poumon droit, cardiomégalie"",
+  ""justification"": ""L'image est de bonne qualité. Il y a une opacité dans le lobe bas du poumon droit, qui pourrait être une consolidation ou un infiltrat. Il y a aussi une cardiomégalie. Les câbles et dispositifs médicaux sont présents."",
+  ""predicted_class"": ""suspected_opacity"",
+  ""uncertain_reason"": ""autre_anomalie"",
+  ""confidence"": 0.85,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+f9fd2573-c775-4711-ac2c-37ae51e5d345,uncertain,"{
+  ""image_quality"": ""moyenne"",
+  ""limitations"": ""câbles"",
+  ""visual_evidence"": ""présence de câbles dans le thorax"",
+  ""justification"": ""L'image est de qualité moyenne. Il y a des câbles visibles dans le thorax, ce qui peut affecter la clarté de l'image."",
+  ""predicted_class"": ""uncertain"",
+  ""uncertain_reason"": ""qualite_image"",
+  ""confidence"": 0.85,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+bf64c720-4afb-4ddf-a6a0-bc91dc155a33,normal,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""la radiographie montre un sternum droit, des clavicules, des omoplates, des côtes, des poumons et le diaphragme. Les poumons sont clairs et il n'y a pas d'opacité visible."",
+  ""justification"": ""la qualité de l'image est bonne, et il n'y a pas d'anomalie visible."",
+  ""predicted_class"": ""normal"",
+  ""uncertain_reason"": ""n/a"",
+  ""confidence"": 0.99,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+d24c400d-3d02-4317-a4a6-6a3e268b94cc,uncertain,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""Absence de câbles ou de flou"",
+  ""visual_evidence"": ""Cardiomégalie, opacité dans le bas du lobe droit, opacité dans le bas du lobe gauche"",
+  ""justification"": ""La cardiomégalie est visible. Il y a une opacité dans le bas du lobe droit, qui pourrait être une consolidation ou un épanchement pleural. Il y a aussi une opacité dans le bas du lobe gauche, qui pourrait être une consolidation ou un épanchement pleural."",
+  ""predicted_class"": ""uncertain"",
+  ""uncertain_reason"": ""autre_anomalie"",
+  ""confidence"": 0.85,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+85fde190-a997-4f2c-8378-61749288bb46,suspected_opacity,"{
+  ""image_quality"": ""moyenne"",
+  ""limitations"": ""câbles et tubes"",
+  ""visual_evidence"": ""présence de multiples opacités dans les deux poumons, avec une distribution diffuse et une certaine asymétrie."",
+  ""justification"": ""L'image est de qualité moyenne, avec des câbles et tubes visibles qui peuvent affecter la clarté. Il y a des opacités dans les deux poumons, ce qui suggère une condition pulmonaire. L'asymétrie peut être due à une cause spécifique."",
+  ""predicted_class"": ""suspected_opacity"",
+  ""uncertain_reason"": ""autre_anomalie"",
+  ""confidence"": 0.85,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+5492dac4-a895-4e35-9c0e-aa787a48aa1a,uncertain,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""câbles"",
+  ""visual_evidence"": ""présence de diffuse opacités bilatérales, possible épanchement pleural gauche, cardiomégalie"",
+  ""justification"": ""L'image est de bonne qualité. Les diffuse opacités bilatérales suggèrent une possible pneumopathie ou une autre cause d'infiltrat pulmonaire. L'épanchement pleural gauche est visible. La cardiomégalie est également présente. Les câbles sont présents."",
+  ""predicted_class"": ""uncertain"",
+  ""uncertain_reason"": ""autre_anomalie"",
+  ""confidence"": 0.85,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+19233158-5ea5-4183-9774-532a0fdb6b63,suspected_opacity,"{
+  ""image_quality"": ""moyenne"",
+  ""limitations"": ""câbles"",
+  ""visual_evidence"": ""présence d'une opacité dans le bas du poumon droit et dans le bas du poumon gauche, possible épanchement pleural"",
+  ""justification"": ""L'image est de qualité moyenne. Il y a des câbles visibles. Il y a une opacité dans le bas du poumon droit et dans le bas du poumon gauche, ce qui pourrait être une épanchement pleural ou une autre opacité. Il est difficile de déterminer l'exacte nature de l'opacité."",
+  ""predicted_class"": ""uncertain"",
+  ""uncertain_reason"": ""autre_anomalie"",
+  ""confidence"": 0.75,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+4e00fa41-f9dc-4826-ae11-3c2c0d056ff1,suspected_opacity,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""Câbles et dispositifs médicaux"",
+  ""visual_evidence"": ""Opacité dans le bas du lobe droit, possible épanchement pleural"",
+  ""justification"": ""L'image est de bonne qualité. Il y a une opacité dans le bas du lobe droit, qui pourrait être une consolidation ou un épanchement pleural. Il y a aussi des câbles et des dispositifs médicaux qui peuvent affecter la qualité de l'image."",
+  ""predicted_class"": ""suspected_opacity"",
+  ""uncertain_reason"": ""autre_anomalie"",
+  ""confidence"": 0.85,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+bd88f2af-7d9f-44a8-8004-ea76250dc9b2,suspected_opacity,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""câbles"",
+  ""visual_evidence"": ""présence de câbles et de tubes dans les voies respiratoires et artérielles"",
+  ""justification"": ""L'image est de bonne qualité, mais les câbles et tubes peuvent masquer des détails pulmonaires."",
+  ""predicted_class"": ""uncertain"",
+  ""uncertain_reason"": ""autre_anomalie"",
+  ""confidence"": 0.85,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+014c6a19-38e2-4e7f-8f14-dd4f0a4582e4,normal,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""Le thorax est bien visible. Les poumons sont clairs. Le cœur est de taille normale. Il y a une calcification de l'aorte."",
+  ""justification"": ""L'image est de bonne qualité, avec une bonne exposition et une bonne résolution. Les poumons sont clairs sans opacité évidente. Le cœur est de taille normale. Il y a une calcification de l'aorte."",
+  ""predicted_class"": ""normal"",
+  ""uncertain_reason"": ""n/a"",
+  ""confidence"": 0.95,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+f3236920-9024-4ee1-bbac-a89b68cfb44b,suspected_opacity,"{
+  ""image_quality"": ""moyenne"",
+  ""limitations"": ""câbles, flou"",
+  ""visual_evidence"": ""présence d'opacités dans les deux poumons, notamment dans les zones basales et interlobaires, avec une distribution asymétrique."",
+  ""justification"": ""L'image est de qualité moyenne, avec des limitations dues aux câbles et au flou. Il y a des opacités dans les deux poumons, plus prononcées dans les zones basales et interlobaires, avec une distribution asymétrique. Ces opacités pourraient être des infiltrats ou des consolidations."",
+  ""predicted_class"": ""suspected_opacity"",
+  ""uncertain_reason"": ""autre_anomalie"",
+  ""confidence"": 0.85,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+1e1c3b02-27fa-42a2-b51b-f46378e09fde,suspected_opacity,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""Câbles et tubes"",
+  ""visual_evidence"": ""Opacité diffuse et bilatérale dans les deux poumons, avec une distribution qui semble plus intense dans les zones périphériques."",
+  ""justification"": ""L'image montre une opacité diffuse et bilatérale dans les deux poumons, avec une distribution qui semble plus intense dans les zones périphériques. Ces signes sont évocateurs d'une pneumopathie diffuse."",
+  ""predicted_class"": ""suspected_opacity"",
+  ""uncertain_reason"": ""n/a"",
+  ""confidence"": 0.95,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+b2fdb4b5-24e5-49cb-ad01-84cf17f35c94,normal,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""la radiographie montre un sternum droit, des clavicules, des omoplates, des côtes, des poumons et le diaphragme. Les poumons sont clairs et il n'y a pas d'opacité visible."",
+  ""justification"": ""la qualité de l'image est bonne, et il n'y a pas d'anomalie visible."",
+  ""predicted_class"": ""normal"",
+  ""uncertain_reason"": ""n/a"",
+  ""confidence"": 0.99,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+f149b26e-035e-4f7b-b55b-016334772d2b,suspected_opacity,"{
+  ""image_quality"": ""moyenne"",
+  ""limitations"": ""câbles, flou"",
+  ""visual_evidence"": ""présence de multiples opacités dans les deux poumons, avec une distribution asymétrique, plus marquée dans le lobe supérieur droit."",
+  ""justification"": ""L'image est de mauvaise qualité en raison des câbles et du flou. Il y a des opacités multiples dans les deux poumons, avec une distribution asymétrique, plus marquée dans le lobe supérieur droit. Ces signes sont évocateurs d'une pneumonie."",
+  ""predicted_class"": ""suspected_opacity"",
+  ""uncertain_reason"": ""n/a"",
+  ""confidence"": 0.95,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+7228bf11-3ce7-47f5-bee3-d36325df1dc8,uncertain,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""les poumons sont clairs, sans opacités suspectes. la cardiomégalie est absente. le cathéter est visible."",
+  ""justification"": ""l'image est de bonne qualité, avec une bonne exposition et une bonne résolution. les poumons sont clairs, sans opacités suspectes. la cardiomégalie est absente. le cathéter est visible."",
+  ""predicted_class"": ""normal"",
+  ""uncertain_reason"": ""n/a"",
+  ""confidence"": 0.95,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+f1235d32-4952-4c98-8497-16e1aaa11cb0,uncertain,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""câbles"",
+  ""visual_evidence"": ""la radiographie montre une opacité dans le lobe supérieur droit, et des câbles sont visibles"",
+  ""justification"": ""l'opacité dans le lobe supérieur droit est évocatrice d'une pneumonie, et les câbles peuvent affecter la qualité de l'image"",
+  ""predicted_class"": ""suspected_opacity"",
+  ""uncertain_reason"": ""autre_anomalie"",
+  ""confidence"": 0.95,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+63fac8bb-6d04-4e04-b57c-2311eb376acb,normal,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""la radiographie montre des poumons clairs, un médiastin et une cage thoracique sans anomalies apparentes."",
+  ""justification"": ""la qualité de l'image est bonne, et il n'y a pas de signes d'opacité ou d'anomalie."",
+  ""predicted_class"": ""normal"",
+  ""uncertain_reason"": ""n/a"",
+  ""confidence"": 0.99,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+a965cb42-5f7b-4cfb-9970-6fe6b80f640c,suspected_opacity,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""Opacité dans le lobe supérieur droit, possible épanchement pleural"",
+  ""justification"": ""L'image est de bonne qualité. Il y a une opacité dans le lobe supérieur droit, qui pourrait être due à un épanchement pleural ou une consolidation. Le lobe supérieur gauche est clair."",
+  ""predicted_class"": ""suspected_opacity"",
+  ""uncertain_reason"": ""autre_anomalie"",
+  ""confidence"": 0.85,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+6c507676-d297-45bf-ba79-17ae719bddf1,uncertain,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""câbles"",
+  ""visual_evidence"": ""Opacité dans le bas du poumon gauche, possible épanchement pleural. Opacité dans le bas du poumon droit, possible épanchement pleural. Cardiomégalie."",
+  ""justification"": ""L'image est de bonne qualité. Il y a une opacité dans le bas du poumon gauche, qui pourrait être un épanchement pleural. Il y a aussi une opacité dans le bas du poumon droit, qui pourrait être un épanchement pleural. La cardiomégalie est visible. Les câbles sont présents."",
+  ""predicted_class"": ""uncertain"",
+  ""uncertain_reason"": ""autre_anomalie"",
+  ""confidence"": 0.85,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+7845cd45-c899-4220-ab6d-e969ed2e1cf3,uncertain,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""les poumons sont clairs, sans opacités évidentes. le diaphragme est bien visible. le cœur est de taille normale. les côtes sont bien définies."",
+  ""justification"": ""l'image est de bonne qualité, avec une bonne exposition et une bonne résolution. il n'y a pas d'opacités suspectes dans les poumons. le cœur et les côtes sont bien visibles."",
+  ""predicted_class"": ""normal"",
+  ""uncertain_reason"": ""n/a"",
+  ""confidence"": 0.95,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+90c345aa-be44-4390-9f4f-12d02643560d,normal,"{""image_quality"": ""n/a"", ""visual_evidence"": ""n/a"", ""justification"": ""Classé en mode dégradé (récupération après échec JSON) — sans justification."", ""predicted_class"": ""normal"", ""uncertain_reason"": ""n/a"", ""confidence"": null, ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""}",True
+e4bb3716-5fa8-4168-8a57-8fe1b22d5eac,uncertain,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""cardiomégalie, opacités pulmonaires"",
+  ""justification"": ""L'image est de bonne qualité. Il y a une cardiomégalie (cœur élargi) et des opacités pulmonaires, qui pourraient être dues à une pneumonie ou à une autre cause."",
+  ""predicted_class"": ""uncertain"",
+  ""uncertain_reason"": ""autre_anomalie"",
+  ""confidence"": 0.85,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+e96a0239-5630-4b54-8e34-d17a3bed5841,normal,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""La radiographie montre un diaphragme droit et gauche, un sternum, des clavicules, et des omoplates. Le cœur est visible. Il y a une présence de cathéter dans la poitrine."",
+  ""justification"": ""La qualité de l'image est bonne. Il y a une présence de cathéter dans la poitrine."",
+  ""predicted_class"": ""uncertain"",
+  ""uncertain_reason"": ""autre_anomalie"",
+  ""confidence"": 0.85,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+c78daf52-c33b-4367-a28f-5bc60a92e7d9,suspected_opacity,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""L'image montre un thorax avec des poumons clairs, une cardiomégalie et une position normale des clavicules."",
+  ""justification"": ""L'image est de bonne qualité, avec une bonne exposition et une bonne résolution. Il n'y a pas de câbles ou de flou qui pourraient affecter l'interprétation. Les poumons sont clairs, et il n'y a pas de signes d'infection ou d'inflammation."",
+  ""predicted_class"": ""normal"",
+  ""uncertain_reason"": ""n/a"",
+  ""confidence"": 0.95,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+a613b9d5-b499-48e2-b23f-f78b657019ef,uncertain,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""la radiographie montre des poumons clairs, une cardiomégalie, et un cathéter"",
+  ""justification"": ""la radiographie est de bonne qualité, et il n'y a pas de signes d'opacité pulmonaire. Il y a une cardiomégalie et un cathéter visible."",
+  ""predicted_class"": ""uncertain"",
+  ""uncertain_reason"": ""autre_anomalie"",
+  ""confidence"": 0.85,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+d5230fc2-375f-4fed-8b13-7c7f65c8fc60,uncertain,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""L'image montre un thorax avec des poumons clairs à l'exception d'une opacité dans le lobe supérieur gauche. Il y a aussi un cathéter visible dans la veine jugulaire."",
+  ""justification"": ""L'image est de bonne qualité. Il y a une opacité dans le lobe supérieur gauche, qui pourrait être due à un épanchement pleural ou une consolidation. Il y a aussi un cathéter visible dans la veine jugulaire."",
+  ""predicted_class"": ""uncertain"",
+  ""uncertain_reason"": ""autre_anomalie"",
+  ""confidence"": 0.85,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+f7856767-112d-4ff6-8b20-1188c0c47a1a,suspected_opacity,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations notables"",
+  ""visual_evidence"": ""Opacité dans le lobe supérieur droit, infiltrats dans les deux poumons"",
+  ""justification"": ""L'image est de bonne qualité. Il y a une opacité dans le lobe supérieur droit, qui pourrait être une pneumonie. Il y a aussi des infiltrats dans les deux poumons, ce qui pourrait être une pneumonie ou une autre condition."",
+  ""predicted_class"": ""suspected_opacity"",
+  ""uncertain_reason"": ""n/a"",
+  ""confidence"": 0.95,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+f8ae7a9c-9168-4a6f-8309-cd004da478b0,uncertain,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""la radiographie montre les deux poumons, le diaphragme, le sternum et la colonne vertébrale. Les poumons sont clairs sans opacités évidentes."",
+  ""justification"": ""la qualité de l'image est bonne, et il n'y a pas de signes d'opacité dans les poumons."",
+  ""predicted_class"": ""normal"",
+  ""uncertain_reason"": ""n/a"",
+  ""confidence"": 0.95,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+747b1c03-c554-41ea-9d57-7b54894985f3,suspected_opacity,"{
+  ""image_quality"": ""moyenne"",
+  ""limitations"": ""câbles et tubes"",
+  ""visual_evidence"": ""présence de câbles et tubes dans le champ de vision"",
+  ""justification"": ""la qualité de l'image est affectée par la présence de câbles et tubes, ce qui peut rendre l'interprétation difficile"",
+  ""predicted_class"": ""uncertain"",
+  ""uncertain_reason"": ""qualite_image"",
+  ""confidence"": 0.5,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+4878535b-ef11-4656-b44c-ed21d223e4d3,suspected_opacity,"{
+  ""image_quality"": ""moyenne"",
+  ""limitations"": ""Le patient est en position décubitus, ce qui peut affecter la visualisation des structures pulmonaires."",
+  ""visual_evidence"": ""Il y a une opacité dans le bas du lobe droit, qui pourrait être une consolidation ou un infiltrat. Il y a aussi une opacité dans le bas du lobe gauche."",
+  ""justification"": ""L'opacité dans le bas du lobe droit et le bas du lobe gauche est évocatrice d'une pneumonie. La qualité de l'image est moyenne, ce qui peut affecter la précision de l'analyse."",
+  ""predicted_class"": ""suspected_opacity"",
+  ""uncertain_reason"": ""n/a"",
+  ""confidence"": 0.85,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+42619322-0a98-4494-9d8d-bccaa674ad07,uncertain,"{
+  ""image_quality"": ""moyenne"",
+  ""limitations"": ""câbles"",
+  ""visual_evidence"": ""présence d'opacités dans les deux poumons, surtout dans les zones basales"",
+  ""justification"": ""L'image est de qualité moyenne, avec des câbles visibles. Il y a des opacités dans les deux poumons, surtout dans les zones basales, ce qui pourrait être dû à une pneumonie ou à d'autres causes."",
+  ""predicted_class"": ""suspected_opacity"",
+  ""uncertain_reason"": ""autre_anomalie"",
+  ""confidence"": 0.85,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+6fe126b4-dbbd-4a44-b09c-7a992c8767e8,uncertain,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""Câbles et dispositifs médicaux visibles"",
+  ""visual_evidence"": ""Cardiomégalie, opacité diffuse dans les poumons"",
+  ""justification"": ""L'image est de bonne qualité. Il y a une cardiomégalie (cœur élargi) et une opacité diffuse dans les poumons. Les câbles et dispositifs médicaux sont visibles."",
+  ""predicted_class"": ""uncertain"",
+  ""uncertain_reason"": ""autre_anomalie"",
+  ""confidence"": 0.85,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+75d50f2f-a869-46ea-8d58-6446ead6d15d,normal,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""Le thorax est bien visible. Les poumons sont clairs. Le cœur est de taille normale. Il y a un cathéter visible dans la veine jugulaire droite."",
+  ""justification"": ""L'image est de bonne qualité, avec une bonne exposition et une bonne résolution. Les poumons sont clairs sans opacité évidente. Le cœur est de taille normale. Il y a un cathéter visible dans la veine jugulaire droite."",
+  ""predicted_class"": ""normal"",
+  ""uncertain_reason"": ""n/a"",
+  ""confidence"": 0.95,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+e49d1683-b3d9-4a75-9b30-779201943f1a,suspected_opacity,"{
+  ""image_quality"": ""moyenne"",
+  ""limitations"": ""câbles, flou"",
+  ""visual_evidence"": ""présence de câbles et de nombreux signaux de ventilation"",
+  ""justification"": ""L'image est de mauvaise qualité en raison de nombreux câbles et de signaux de ventilation. Il est difficile de distinguer clairement les structures pulmonaires."",
+  ""predicted_class"": ""uncertain"",
+  ""uncertain_reason"": ""qualite_image"",
+  ""confidence"": 0.5,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+b62734ee-1390-4f24-a45c-b80c08375518,uncertain,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""pas de limitations"",
+  ""visual_evidence"": ""L'image montre un thorax avec des poumons clairs à l'exception d'une opacité dans le lobe supérieur gauche. Il y a aussi un cathéter visible dans la veine jugulaire."",
+  ""justification"": ""L'image est de bonne qualité. Il y a une opacité dans le lobe supérieur gauche, qui pourrait être due à un épanchement pleural ou une autre cause. Le cathéter dans la veine jugulaire est également visible."",
+  ""predicted_class"": ""uncertain"",
+  ""uncertain_reason"": ""autre_anomalie"",
+  ""confidence"": 0.85,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+c1fd8229-6d44-4bde-8137-690092433542,normal,"{""image_quality"": ""n/a"", ""visual_evidence"": ""n/a"", ""justification"": ""Classé en mode dégradé (récupération après échec JSON) — sans justification."", ""predicted_class"": ""normal"", ""uncertain_reason"": ""n/a"", ""confidence"": null, ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""}",True
+af0a996a-d4a0-44c7-b316-72176ea9838b,suspected_opacity,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""Câbles et dispositifs médicaux"",
+  ""visual_evidence"": ""Opacité importante dans le lobe droit, probable épanchement pleural. Opacité dans le lobe gauche, possible infiltrat ou atelectasie. Cardiomégalie."",
+  ""justification"": ""L'image est de bonne qualité. Il y a une opacité importante dans le lobe droit, qui pourrait être un épanchement pleural. Il y a aussi une opacité dans le lobe gauche, qui pourrait être un infiltrat ou une atelectasie. La cardiomégalie est également visible."",
+  ""predicted_class"": ""uncertain"",
+  ""uncertain_reason"": ""autre_anomalie"",
+  ""confidence"": 0.85,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
+899fecd3-52be-4b08-aa2c-3f07ef981ba9,uncertain,"{
+  ""image_quality"": ""bonne"",
+  ""limitations"": ""câbles"",
+  ""visual_evidence"": ""Opacité dans le bas du poumon droit, probable épanchement pleural. Opacité dans le bas du poumon gauche, probable infiltrat."",
+  ""justification"": ""L'image est de bonne qualité. Il y a une opacité dans le bas du poumon droit, qui pourrait être un épanchement pleural. Il y a aussi une opacité dans le bas du poumon gauche, qui pourrait être un infiltrat. Les câbles sont visibles."",
+  ""predicted_class"": ""uncertain"",
+  ""uncertain_reason"": ""autre_anomalie"",
+  ""confidence"": 0.85,
+  ""warning"": ""Avertissement: Incertitude IA, nécessite une relecture médicale""
+}",False
