@@ -1,6 +1,26 @@
+# Environnement Python
 env/
-rsna-pneumonia-detection-challenge/
-CSV_Resultats/
+__pycache__/
+*.pyc
+
+# Secrets
 .env
 
-__pycache__/
+# Config locale
+.claude/
+
+# Dataset volumineux (RSNA) et images DICOM — non versionnés
+rsna-pneumonia-detection-challenge/
+dataset_Dev/
+dataset_Final/images/
+
+# Sujet du projet (volumineux)
+*.pdf
+
+# Artefacts runtime / sauvegardes
+journal_inferences.sqlite
+*.bak
+*.bak2
+
+# Gradio (certificats/temp)
+.gradio/
