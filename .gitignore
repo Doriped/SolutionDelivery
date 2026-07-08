@@ -24,3 +24,6 @@ journal_inferences.sqlite
 
 # Gradio (certificats/temp)
 .gradio/
+.venv/
+.venv/
+.venv/

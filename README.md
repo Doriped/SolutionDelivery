@@ -1,3 +1,9 @@
+---
+title: pneumonix
+app_file: app.py
+sdk: gradio
+sdk_version: 4.44.1
+---
 # PneumoniX — Assistant radiologue virtuel
 
 Prototype **pédagogique** de classification de radiographies thoraciques frontales en 3 classes

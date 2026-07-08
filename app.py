@@ -21,6 +21,7 @@ from dotenv import load_dotenv
 from huggingface_hub import login
 from transformers import AutoProcessor, AutoModelForImageTextToText, BitsAndBytesConfig
 import gradio as gr
+import matplotlib.cm as cm
 
 # --------------------------------------------------------------------------- Config
 CLASSES   = ["normal", "suspected_opacity", "uncertain"]
@@ -43,6 +44,51 @@ tf_eval = transforms.Compose([
     transforms.ToTensor(),
     transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225]),
 ])
+
+# --------------------------------------------------------------------------- Grad-CAM (heatmap d'explicabilité)
+class GradCAM:
+    """Grad-CAM standard (Selvaraju et al., 2017) accroché sur la dernière couche
+    convolutive du DenseNet-121 (clf.features, juste avant le ReLU + pooling global).
+    Objectif : montrer QUELLES zones de l'image ont fait pencher le classifieur
+    vers la classe prédite -> pédagogique + confiance utilisateur."""
+    def __init__(self, model, target_layer):
+        self.model = model
+        self.activations = None
+        self.gradients = None
+        target_layer.register_forward_hook(self._forward_hook)
+        target_layer.register_full_backward_hook(self._backward_hook)
+
+    def _forward_hook(self, module, inp, out):
+        self.activations = out.detach()
+
+    def _backward_hook(self, module, grad_in, grad_out):
+        self.gradients = grad_out[0].detach()
+
+    def generate(self, x, class_idx):
+        """x : tenseur (1,3,224,224) AVEC requires_grad. Retourne une carte (H,W) dans [0,1]."""
+        self.model.zero_grad(set_to_none=True)
+        scores = self.model(x)
+        scores[0, class_idx].backward()
+        weights = self.gradients[0].mean(dim=(1, 2))                 # (C,) importance par canal
+        cam = torch.relu((weights[:, None, None] * self.activations[0]).sum(0))
+        cam -= cam.min()
+        cam = cam / (cam.max() + 1e-8)
+        return cam.cpu().numpy()
+
+_gradcam = GradCAM(clf, clf.features)
+
+def generer_heatmap(image_pil, class_idx, alpha=0.45):
+    """Radiographie PIL + indice de classe -> image PIL avec carte de chaleur superposée."""
+    x = tf_eval(image_pil).unsqueeze(0).to(DEVICE)
+    x.requires_grad_(True)
+    cam = _gradcam.generate(x, class_idx)                              # (7,7) env., dans [0,1]
+    taille = image_pil.size                                            # (largeur, hauteur)
+    cam_img = Image.fromarray(np.uint8(cam * 255)).resize(taille, Image.BICUBIC)
+    cam_arr = np.array(cam_img).astype(float) / 255.0
+    couleurs = (cm.get_cmap("jet")(cam_arr)[:, :, :3] * 255).astype(np.uint8)   # RGBA -> RGB
+    heat_img = Image.fromarray(couleurs).convert("RGB")
+    base = image_pil.convert("RGB").resize(taille)
+    return Image.blend(base, heat_img, alpha=alpha)
 
 # --------------------------------------------------------------------------- VLM (analyse rédigée)
 load_dotenv()
@@ -160,7 +206,7 @@ def journaliser(fichier, sortie):
 # --------------------------------------------------------------------------- Pipeline /predict
 def predire(fichier):
     if not fichier:
-        return None, "<div class='carte'><div class='warn-info'>Aucun fichier fourni.</div></div>", {}
+        return None, None, "<div class='carte'><div class='warn-info'>Aucun fichier fourni.</div></div>", {}
     t0 = time.time()
     image = charger_image(fichier)
 
@@ -174,6 +220,13 @@ def predire(fichier):
     # 2) GARDE-FOU : doute -> uncertain + relecture
     mode_degrade = conf < SEUIL
     classe_finale = "uncertain" if mode_degrade else classe
+
+    # 2bis) GRAD-CAM : carte de chaleur des zones qui ont motivé la décision du classifieur.
+    # Calculée sur l'indice brut prédit par le classifieur (idx), pas sur classe_finale, pour
+    # rester fidèle à ce que le réseau a réellement "regardé". Inutile si l'image est jugée normale.
+    heatmap = None
+    if classe_finale != "normal":
+        heatmap = generer_heatmap(image, idx)
 
     # 3) VLM : analyse spécifique à l'image, cohérente avec la classe
     a = analyser_vlm(image, classe_finale, conf)
@@ -193,7 +246,12 @@ def predire(fichier):
         "latence_s": round(time.time() - t0, 2),
     }
     journaliser(fichier, sortie)                                  # 100% des sorties journalisées
-    return image, rendu_html(sortie), sortie
+    return (
+    image,
+    heatmap,
+    rendu_html(sortie),
+    json.dumps(sortie, indent=2, ensure_ascii=False),
+)
 
 # --------------------------------------------------------------------------- Rendu visuel
 COULEUR = {                              # (couleur claire texte/barre, fond teinté sombre) par classe
@@ -295,14 +353,25 @@ with gr.Blocks(theme=gr.themes.Soft(primary_hue="blue", neutral_hue="slate"),
             entree = gr.File(label="Radiographie (.dcm / .png / .jpg)",
                              file_types=[".dcm", ".png", ".jpg", ".jpeg"], type="filepath")
             bouton = gr.Button("Analyser", variant="primary", size="lg")
-            apercu = gr.Image(label="Radiographie", type="pil", height=360)
+            with gr.Tab("Radiographie"):
+                apercu = gr.Image(label="Radiographie", type="pil", height=360)
+            with gr.Tab("Carte de chaleur (zones suspectes)"):
+                heatmap_img = gr.Image(label="Grad-CAM · zones ayant motivé la décision",
+                                       type="pil", height=360)
+                gr.HTML('<div style="color:#64748b;font-size:.8rem;padding:4px 2px">'
+                        'Rouge/jaune = zones qui ont le plus influencé le classifieur · '
+                        'non affichée si la radiographie est classée « Normal ».</div>')
         with gr.Column(scale=5):
             resultat = gr.HTML(PLACEHOLDER)
             with gr.Accordion("Voir le JSON brut (contrat de sortie)", open=False):
-                json_brut = gr.JSON()
+                json_brut = gr.Code(language="json", label="JSON")
     gr.HTML(f'<div id="pied">Garde-fou : confiance &lt; {SEUIL:.2f} → routé vers « incertain » '
-            '(relecture humaine) · chaque analyse est journalisée dans <code>journal_inferences.sqlite</code></div>')
-    bouton.click(predire, inputs=entree, outputs=[apercu, resultat, json_brut])
+            '(relecture humaine) · chaque analyse est journalisée dans <code>journal_inferences.sqlite</code> · '
+            'carte de chaleur (Grad-CAM) sur la dernière couche convolutive du classifieur</div>')
+    bouton.click(predire, inputs=entree, outputs=[apercu, heatmap_img, resultat, json_brut])
 
 if __name__ == "__main__":
-    demo.launch(share = True)   # share=True pour un lien public temporaire
+    demo.launch(
+    share=False,
+    show_api=False
+)   # share=True pour un lien public temporaire
